@@ -12,12 +12,12 @@ namespace WebApi.Controllers
     {
         private readonly RepositoryContext _repositoryContext;
 
-        public BooksController(RepositoryContext repositoryContext)
-        {
+        public BooksController(RepositoryContext repositoryContext) //Dependency injection
+        { //Resolve
             _repositoryContext = repositoryContext;
         }
 
-        [HttpGet]
+        [HttpGet] 
         public IActionResult GetAllBooks()
         {
             try
@@ -54,7 +54,7 @@ namespace WebApi.Controllers
             
         }
         [HttpPost] //kitap eklemek için 
-        public IActionResult CreateOneBook([FromBody] Book book)
+        public IActionResult CreateOneBook([FromBody] Book book) //veri tabanı ıd yi kendisi veriyor
         {
             try
             {
