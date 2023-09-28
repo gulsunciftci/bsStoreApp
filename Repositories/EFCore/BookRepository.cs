@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.EFCore
 {
+    //RepositoryBase<Book>:single inheritance
     public class BookRepository : RepositoryBase<Book>, IBookRepository
     {
         public BookRepository(RepositoryContext context) : base(context)

@@ -9,8 +9,13 @@ namespace Repositories.Contracts
 {
     public interface IRepositoryBase<T>
     {
+        //Sorgulanabilir ifadeler
+        //değişiklikleri izleyip izlememek için bunu bir parametreye bağlıyoruz trackChanges bunu ifade ediyor
         //CRUD
         IQueryable<T> FindAll(bool trackChanges);
+
+        //T:Generic
+        //Func:Delege
         IQueryable<T> FindByCondition(Expression<Func<T,bool>> expression,bool trackChanges);
         void Create(T entity);
         void Update(T entity);

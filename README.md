@@ -294,3 +294,242 @@ namespace WebApi.Controllers
 }
 
 ```
+
+# KATMANLI MİMARİ KULLANIMI
+
+1) 📁 [Entities](https://github.com/gulsunciftci/bsStoreApp/tree/main/Entities)
+
+* Yeni bir class Library ekledim ve ismini Entities koydum.
+* İçine Model klasörü ekledim.
+* Book varlığımı buraya taşıdım.
+
+```C#
+ public class Book
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public decimal Price { get; set; }
+
+    }
+```
+
+2) 📁 [Repositories](https://github.com/gulsunciftci/bsStoreApp/tree/main/Repositories)
+
+* Bir sınıf kütüphanesi oluşturdum ve adını Repositories verdim.
+* interface yapılarını Contractlar olarak değerlendirdim ve bunları eklemek için Contracts isminde bir klasör oluşturdum.
+* IRepositoryBase interfaceini ekledim. Bir imza oluşturdum.
+
+```C#
+  public interface IRepositoryBase<T>
+    {
+        //Sorgulanabilir ifadeler
+        //değişiklikleri izleyip izlememek için bunu bir parametreye bağlıyoruz trackChanges bunu ifade ediyor
+        //CRUD
+        IQueryable<T> FindAll(bool trackChanges);
+
+        //T:Generic
+        //Func:Delege
+        IQueryable<T> FindByCondition(Expression<Func<T,bool>> expression,bool trackChanges);
+        void Create(T entity);
+        void Update(T entity);
+        void Delete(T entity);
+    
+    }
+```
+
+* EFCore klasörü oluşturdum.
+* İçerisine RepositoryContext ekledim.
+```C#
+  public class RepositoryContext:DbContext
+    {
+       public RepositoryContext (DbContextOptions options):base(options)
+       {
+
+       }
+       public DbSet<Book> Books { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new BookConfig());
+        }
+    }
+```
+
+* Config dosyasını EFCore içine taşıdım.
+* IRepositoryBase'i implemente edecek classa ihtiyaç var bu sebeple EFCore içerisine RepositoryBase class'ını oluşturdum.
+
+* NOT: Contractlar hangi metotların implemente edileceğini söyler detaylarla ilgilenmez.
+* Api projesine yeni klasör ekliyorum ismini Extensions koydum.içerisine ServiceExtensions classını ekledim. Uzantı metotlarını içerir. Servislere ait tanımları içerir.
+```C#
+  public static class ServicesExtensions
+    {
+        public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration)=>
+            services.AddDbContext<RepositoryContext>(options =>
+                           options.UseSqlServer(
+                               configuration.GetConnectionString("sqlConnection")));
+
+        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
+
+
+        public static void ConfigureServiceManager(this IServiceCollection services)=>
+            services.AddScoped<IServiceManager, ServiceManager>();
+    }
+```
+* Congfiguration ifadesini program.cs ten silip daha kısa halini ekledim.
+```C#
+builder.Services.ConfigureSqlContext(builder.Configuration);
+```
+
+3) 📁 [Services](https://github.com/gulsunciftci/bsStoreApp/tree/main/Services)
+
+* Servis katmanını ekledim.(class library)
+
+4) 📁 [Presentation](https://github.com/gulsunciftci/bsStoreApp/tree/main/Presentation)
+* Sunum katmanını ekledim.(class library)
+* Controller'ı Apidan buraya taşıdım.
+```C#
+
+using Entities.Models;
+using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.Mvc;
+using Services.Contracts;
+
+namespace Presentation.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class BooksController : ControllerBase //Kalıtım
+    {
+        private readonly IServiceManager _manager;
+
+        public BooksController(IServiceManager manager) //Dependency injection
+        { //Resolve
+            _manager = manager;
+        }
+
+        [HttpGet] 
+        public IActionResult GetAllBooks()
+        {
+            try
+            {
+                var books = _manager.BookService.GetAllBooks(false);
+                return Ok(books);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet("{id:int}")]
+        public IActionResult GetOneBook([FromRoute(Name="id")]int id)
+        {
+            try
+            {
+                var book = _manager.
+              BookService.GetOneBookById(id,false);
+              
+                if (book is null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(book);
+            }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            
+        }
+
+
+
+
+        [HttpPost] //kitap eklemek için 
+        public IActionResult CreateOneBook([FromBody] Book book) //veri tabanı ıd yi kendisi veriyor
+        {
+            try
+            {
+                if (book is null)
+                {
+                    return BadRequest();
+                }
+                _manager.BookService.CreateOneBook(book);
+                
+                return StatusCode(201, book);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("{id:int}")]
+        public IActionResult UpdateOneBook([FromRoute(Name = "id")] int id, Book book)
+        {
+            try
+            {
+               if(book is null)
+                {
+                    return BadRequest();//400
+                }
+
+                _manager.BookService.UpdateOneBook(id, book, false);
+               
+                return NoContent();//204
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+           
+        }
+        
+     
+        [HttpDelete("{id:int}")]
+        public IActionResult DeleteOneBook([FromRoute(Name = "id")] int id)
+        {
+            try
+            {
+               
+                _manager.BookService.DeleteOneBook(id, false);
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+        [HttpPatch("{id:int}")] //Puttan farkı putta nesneyi bir bütün olarak güncelliyoruz burada ise kısmi güncelleme yapabiliyoruz.
+        // Normalde bir array içinde tanımlanır
+        public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<Book> bookPatch)
+        {
+            try
+            {
+                //check entity
+                var entity = _manager.BookService.GetOneBookById(id, true);
+                if (entity is null)
+                {
+                    return NotFound(); //404
+                }
+
+                bookPatch.ApplyTo(entity);
+                _manager.BookService.UpdateOneBook(id,entity,true);
+                return NoContent(); //204
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+    }
+}
+
+```
