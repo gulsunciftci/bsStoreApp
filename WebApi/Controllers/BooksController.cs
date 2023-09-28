@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Entities.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.Models;
-using WebApi.Repositories;
+using Repositories.Contracts;
+using Repositories.EFCore;
+using Services;
+using Services.Contracts;
 
 namespace WebApi.Controllers
 {
@@ -10,11 +13,11 @@ namespace WebApi.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private readonly RepositoryContext _repositoryContext;
+        private readonly IServiceManager _manager;
 
-        public BooksController(RepositoryContext repositoryContext) //Dependency injection
+        public BooksController(IServiceManager manager) //Dependency injection
         { //Resolve
-            _repositoryContext = repositoryContext;
+            _manager = manager;
         }
 
         [HttpGet] 
@@ -22,7 +25,7 @@ namespace WebApi.Controllers
         {
             try
             {
-                var books = _repositoryContext.Books.ToList();
+                var books = _manager.BookService.GetAllBooks(false);
                 return Ok(books);
             }
             catch (Exception ex)
@@ -31,15 +34,16 @@ namespace WebApi.Controllers
             }
 
         }
+
+
         [HttpGet("{id:int}")]
         public IActionResult GetOneBook([FromRoute(Name="id")]int id)
         {
             try
             {
-                var book = _repositoryContext.
-              Books.
-              Where(b => b.Id.Equals(id))
-              .SingleOrDefault();
+                var book = _manager.
+              BookService.GetOneBookById(id,false);
+              
                 if (book is null)
                 {
                     return NotFound();
@@ -53,6 +57,10 @@ namespace WebApi.Controllers
             }
             
         }
+
+
+
+
         [HttpPost] //kitap eklemek için 
         public IActionResult CreateOneBook([FromBody] Book book) //veri tabanı ıd yi kendisi veriyor
         {
@@ -62,8 +70,8 @@ namespace WebApi.Controllers
                 {
                     return BadRequest();
                 }
-                _repositoryContext.Books.Add(book);
-                _repositoryContext.SaveChanges();
+                _manager.BookService.CreateOneBook(book);
+                
                 return StatusCode(201, book);
             }
             catch (Exception ex)
@@ -77,22 +85,14 @@ namespace WebApi.Controllers
         {
             try
             {
-                var entity = _repositoryContext.Books.Where(b => b.Id.Equals(id))
-                .SingleOrDefault();
-                if (entity is null)
+               if(book is null)
                 {
-                    return NotFound(); //404
-                }
-                //check id
-                if (id != book.Id)
-                {
-                    return BadRequest(); //400
+                    return BadRequest();//400
                 }
 
-                entity.Title = book.Title;
-                entity.Price = book.Price;
-                _repositoryContext.SaveChanges();
-                return Ok(book);
+                _manager.BookService.UpdateOneBook(id, book, false);
+               
+                return NoContent();//204
             }
             catch (Exception ex)
             {
@@ -107,20 +107,9 @@ namespace WebApi.Controllers
         {
             try
             {
-                var entity = _repositoryContext
-                 .Books
-                 .Where(b => b.Id.Equals(id)).SingleOrDefault();
-                if (entity is null)
-                {
-                    return NotFound(new
-                    {
-                        StatusCode = 404,
-                        message = $"Book with id:{id} could not found"
-                    }); //404
-                }
+               
+                _manager.BookService.DeleteOneBook(id, false);
 
-                _repositoryContext.Books.Remove(entity);
-                _repositoryContext.SaveChanges();
                 return NoContent();
             }
             catch (Exception ex)
@@ -129,6 +118,7 @@ namespace WebApi.Controllers
             }
         }
 
+
         [HttpPatch("{id:int}")] //Puttan farkı putta nesneyi bir bütün olarak güncelliyoruz burada ise kısmi güncelleme yapabiliyoruz.
         // Normalde bir array içinde tanımlanır
         public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<Book> bookPatch)
@@ -136,14 +126,14 @@ namespace WebApi.Controllers
             try
             {
                 //check entity
-                var entity = _repositoryContext.Books.Where(b => b.Id.Equals(id)).SingleOrDefault();
+                var entity = _manager.BookService.GetOneBookById(id, true);
                 if (entity is null)
                 {
                     return NotFound(); //404
                 }
 
                 bookPatch.ApplyTo(entity);
-                _repositoryContext.SaveChanges();
+                _manager.BookService.UpdateOneBook(id,entity,true);
                 return NoContent(); //204
             }
             catch (Exception ex)
