@@ -1,17 +1,14 @@
-﻿using Entities.Models;
-using Microsoft.AspNetCore.Http;
+﻿
+using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Repositories.Contracts;
-using Repositories.EFCore;
-using Services;
 using Services.Contracts;
 
-namespace WebApi.Controllers
+namespace Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BooksController : ControllerBase
+    public class BooksController : ControllerBase //Kalıtım
     {
         private readonly IServiceManager _manager;
 
