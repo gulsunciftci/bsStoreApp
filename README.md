@@ -533,3 +533,17 @@ namespace Presentation.Controllers
 }
 
 ```
+
+# AUTOMAPPER KULLANIMI:
+
+* İlk olarak aşağıdaki paketi indirdim
+```C#
+automapper.extensions.microsoft.dependencyinjection
+```
+* Daha sonra program.cs'e şu kod satırını ekledim
+```C#
+builder.Services.AddAutoMapper(typeof(Program));
+```
+### DTO NEDİR?
+* AutoMapper, projemizde Entity nesnelerini database’den çektiğimiz haliyle değil, bu nesneleri istediğimiz (UI’da bizim için gerekli olacak) formata çevirmemizi sağlayan basit bir kütüphanedir. DTO (Data Transfer Object) ise AutoMapper’ın dönüştürmesini istediğimiz format modelidir.
+![Alt text](image.png)
