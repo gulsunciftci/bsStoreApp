@@ -1,0 +1,88 @@
+2023-09-29T07:53:53.0653316+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-09-29T07:53:53.1392909+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-29T07:53:53.1903578+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-29T07:53:53.1944752+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-09-29T07:54:01.0807936+03:00 0HMU0L0A4N6RJ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-09-29T07:54:02.6043203+03:00 0HMU0L0A4N6RJ:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1525.2936ms (791a596a)
+2023-09-29T07:54:03.2260850+03:00 0HMU0L0A4N6RK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-09-29T07:54:03.2275172+03:00 0HMU0L0A4N6RJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-09-29T07:54:03.2330488+03:00 0HMU0L0A4N6RJ:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.8935ms (791a596a)
+2023-09-29T07:54:03.5125877+03:00 0HMU0L0A4N6RK:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 286.4546ms (791a596a)
+2023-09-29T07:54:03.7114497+03:00 0HMU0L0A4N6RK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-09-29T07:54:04.1667908+03:00 0HMU0L0A4N6RK:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 455.2921ms (791a596a)
+2023-09-29T07:55:10.3933683+03:00 0HMU0L0A4N6RL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books - - (ca22a1cb)
+2023-09-29T07:55:10.4055960+03:00 0HMU0L0A4N6RL:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooks (Presentation)"' (500cc934)
+2023-09-29T07:55:10.4356986+03:00 0HMU0L0A4N6RL:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllBooks()" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-09-29T07:55:11.7996468+03:00 0HMU0L0A4N6RL:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-29T07:55:11.7998475+03:00 0HMU0L0A4N6RL:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-29T07:55:12.0658810+03:00 0HMU0L0A4N6RL:00000002 [INF] Executing "OkObjectResult", writing value of type '"Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Entities.Models.Book, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-09-29T07:55:13.8917767+03:00 0HMU0L0A4N6RL:00000002 [INF] Executed DbCommand ("112"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+ORDER BY [b].[Id]" (0723d8ff)
+2023-09-29T07:55:14.2220140+03:00 0HMU0L0A4N6RL:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooks (Presentation)" in 3774.2293ms (afa2e885)
+2023-09-29T07:55:14.2240214+03:00 0HMU0L0A4N6RL:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooks (Presentation)"' (99874f2b)
+2023-09-29T07:55:14.2564459+03:00 0HMU0L0A4N6RL:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books - - - 200 1277 application/json;+charset=utf-8 3863.0839ms (791a596a)
+2023-09-29T07:56:19.6855812+03:00 0HMU0L0A4N6RM:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Books application/json-patch+json 53 (ca22a1cb)
+2023-09-29T07:56:19.6861180+03:00 0HMU0L0A4N6RM:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.CreateOneBook (Presentation)"' (500cc934)
+2023-09-29T07:56:19.7095264+03:00 0HMU0L0A4N6RM:00000002 [INF] Route matched with "{action = \"CreateOneBook\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateOneBook(Entities.Models.Book)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-09-29T07:56:20.3743364+03:00 0HMU0L0A4N6RM:00000002 [INF] Executed DbCommand ("126"ms) [Parameters=["@p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Price], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);" (0723d8ff)
+2023-09-29T07:56:20.4253196+03:00 0HMU0L0A4N6RM:00000002 [INF] Executing "ObjectResult", writing value of type '"Entities.Models.Book"'. (605b4265)
+2023-09-29T07:56:20.4257190+03:00 0HMU0L0A4N6RM:00000002 [INF] Executed action "Presentation.Controllers.BooksController.CreateOneBook (Presentation)" in 716.0648ms (afa2e885)
+2023-09-29T07:56:20.4258124+03:00 0HMU0L0A4N6RM:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.CreateOneBook (Presentation)"' (99874f2b)
+2023-09-29T07:56:20.4262250+03:00 0HMU0L0A4N6RM:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Books application/json-patch+json 53 - 201 51 application/json;+charset=utf-8 740.6767ms (791a596a)
+2023-09-29T07:56:28.8967212+03:00 0HMU0L0A4N6RN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/21 - - (ca22a1cb)
+2023-09-29T07:56:28.8971309+03:00 0HMU0L0A4N6RN:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetOneBook (Presentation)"' (500cc934)
+2023-09-29T07:56:28.8998472+03:00 0HMU0L0A4N6RN:00000002 [INF] Route matched with "{action = \"GetOneBook\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetOneBook(Int32)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-09-29T07:56:29.0458935+03:00 0HMU0L0A4N6RN:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0" (0723d8ff)
+2023-09-29T07:56:29.0473510+03:00 0HMU0L0A4N6RN:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.Models.Book"'. (605b4265)
+2023-09-29T07:56:29.0478313+03:00 0HMU0L0A4N6RN:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetOneBook (Presentation)" in 147.9168ms (afa2e885)
+2023-09-29T07:56:29.0479308+03:00 0HMU0L0A4N6RN:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetOneBook (Presentation)"' (99874f2b)
+2023-09-29T07:56:29.0480988+03:00 0HMU0L0A4N6RN:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/21 - - - 200 58 application/json;+charset=utf-8 151.3572ms (791a596a)
+2023-09-29T07:56:35.9890369+03:00 0HMU0L0A4N6RO:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/22 - - (ca22a1cb)
+2023-09-29T07:56:35.9892302+03:00 0HMU0L0A4N6RO:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetOneBook (Presentation)"' (500cc934)
+2023-09-29T07:56:35.9894454+03:00 0HMU0L0A4N6RO:00000002 [INF] Route matched with "{action = \"GetOneBook\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetOneBook(Int32)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-09-29T07:56:36.0020652+03:00 0HMU0L0A4N6RO:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0" (0723d8ff)
+2023-09-29T07:56:36.0024286+03:00 0HMU0L0A4N6RO:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.Models.Book"'. (605b4265)
+2023-09-29T07:56:36.0026804+03:00 0HMU0L0A4N6RO:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetOneBook (Presentation)" in 13.1005ms (afa2e885)
+2023-09-29T07:56:36.0027876+03:00 0HMU0L0A4N6RO:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetOneBook (Presentation)"' (99874f2b)
+2023-09-29T07:56:36.0030474+03:00 0HMU0L0A4N6RO:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/22 - - - 200 52 application/json;+charset=utf-8 13.9653ms (791a596a)
+2023-09-29T07:57:14.1940540+03:00 0HMU0L0A4N6RP:00000002 [INF] Request starting HTTP/1.1 PUT http://localhost:5251/api/Books/22 application/json-patch+json 62 (ca22a1cb)
+2023-09-29T07:57:14.1941623+03:00 0HMU0L0A4N6RP:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.UpdateOneBook (Presentation)"' (500cc934)
+2023-09-29T07:57:14.1954315+03:00 0HMU0L0A4N6RP:00000002 [INF] Route matched with "{action = \"UpdateOneBook\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult UpdateOneBook(Int32, Entities.Models.Book)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-09-29T07:57:14.2046337+03:00 0HMU0L0A4N6RP:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0" (0723d8ff)
+2023-09-29T07:57:14.2251817+03:00 0HMU0L0A4N6RP:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Books] SET [Price] = @p0, [Title] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;" (0723d8ff)
+2023-09-29T07:57:14.2307065+03:00 0HMU0L0A4N6RP:00000002 [INF] Executing StatusCodeResult, setting HTTP status code 204 (3fe03d2f)
+2023-09-29T07:57:14.2307846+03:00 0HMU0L0A4N6RP:00000002 [INF] Executed action "Presentation.Controllers.BooksController.UpdateOneBook (Presentation)" in 35.2626ms (afa2e885)
+2023-09-29T07:57:14.2308213+03:00 0HMU0L0A4N6RP:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.UpdateOneBook (Presentation)"' (99874f2b)
+2023-09-29T07:57:14.2309572+03:00 0HMU0L0A4N6RP:00000002 [INF] Request finished HTTP/1.1 PUT http://localhost:5251/api/Books/22 application/json-patch+json 62 - 204 - - 36.9159ms (791a596a)
+2023-09-29T07:57:21.9912169+03:00 0HMU0L0A4N6RQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/22 - - (ca22a1cb)
+2023-09-29T07:57:21.9914071+03:00 0HMU0L0A4N6RQ:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetOneBook (Presentation)"' (500cc934)
+2023-09-29T07:57:21.9915543+03:00 0HMU0L0A4N6RQ:00000002 [INF] Route matched with "{action = \"GetOneBook\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetOneBook(Int32)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-09-29T07:57:21.9975195+03:00 0HMU0L0A4N6RQ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0" (0723d8ff)
+2023-09-29T07:57:21.9979182+03:00 0HMU0L0A4N6RQ:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.Models.Book"'. (605b4265)
+2023-09-29T07:57:21.9982144+03:00 0HMU0L0A4N6RQ:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetOneBook (Presentation)" in 6.5277ms (afa2e885)
+2023-09-29T07:57:21.9983238+03:00 0HMU0L0A4N6RQ:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetOneBook (Presentation)"' (99874f2b)
+2023-09-29T07:57:21.9986020+03:00 0HMU0L0A4N6RQ:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/22 - - - 200 52 application/json;+charset=utf-8 7.3317ms (791a596a)
