@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NLog;
 using Repositories.EFCore;
+using Services.Contracts;
 using WebApi.Extensions;
 using LogLevel = Microsoft.Extensions.Logging.LogLevel;
 
@@ -22,6 +24,15 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 var app = builder.Build();
+
+//Hata Yapýlandýrma
+var logger = app.Services.GetRequiredService<ILoggerService>();
+app.ConfigureExceptionHandler(logger);
+if (app.Environment.IsProduction())
+{
+    app.UseHsts();
+}
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
