@@ -43,16 +43,20 @@ namespace Presentation.Controllers
         }
 
         [HttpPost] //kitap eklemek için 
-        public IActionResult CreateOneBook([FromBody] Book book) //veri tabanı ıd yi kendisi veriyor
+        public IActionResult CreateOneBook([FromBody] BookDtoForInsertion bookDto) //veri tabanı ıd yi kendisi veriyor
         {
            
-                if (book is null)
+                if (bookDto is null)
                 {
-                    return BadRequest();
+                    return BadRequest();//400
                 }
-                _manager.BookService.CreateOneBook(book);
+                if (!ModelState.IsValid)
+                {
+                  return UnprocessableEntity(ModelState);
+                }
+                var book= _manager.BookService.CreateOneBook(bookDto);
                 
-                return StatusCode(201, book);
+                return StatusCode(201, book);//CreatedAtRoute()
           
         }
 
@@ -64,8 +68,11 @@ namespace Presentation.Controllers
                 {
                     return BadRequest();//400
                 }
-
-                _manager.BookService.UpdateOneBook(id, bookDto, false);
+                if (!ModelState.IsValid)
+               {
+                return UnprocessableEntity(ModelState); //422
+               }
+            _manager.BookService.UpdateOneBook(id, bookDto, false);
                
                 return NoContent();//204
           
@@ -86,15 +93,26 @@ namespace Presentation.Controllers
 
         [HttpPatch("{id:int}")] //Puttan farkı putta nesneyi bir bütün olarak güncelliyoruz burada ise kısmi güncelleme yapabiliyoruz.
         // Normalde bir array içinde tanımlanır
-        public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<Book> bookPatch)
+        public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, 
+            [FromBody] JsonPatchDocument<BookDtoForUpdate> bookPatch)
         {
-           
-                //check entity
-                var entity = _manager.BookService.GetOneBookById(id, true);
-               
-                bookPatch.ApplyTo(entity);
-                _manager.BookService.UpdateOneBook(id,new BookDtoForUpdate(entity.Id,entity.Title,entity.Price),
-                true);
+                if(bookPatch is null)
+                {
+                     return BadRequest(); //400
+                }
+
+                var result = _manager.BookService.GetOneBookForPatchAsync(id,false);
+                
+                
+                bookPatch.ApplyTo(result.bookDtoForUpdate,ModelState);
+
+                TryValidateModel(result.bookDtoForUpdate);
+                if (!ModelState.IsValid)
+                {
+                    return UnprocessableEntity(ModelState);
+                }
+
+                _manager.BookService.SaveChangesForPatchAsync(result.bookDtoForUpdate,result.book);
                 return NoContent(); //204
            
 
