@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObject;
+using Entities.Models;
+using Entities.RequestFeatures;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +11,11 @@ namespace Repositories.Contracts
 {
     public interface IBookRepository:IRepositoryBase<Book>
     {
-        IQueryable<Book> GetAllBooks ( bool trackChanges);
-        Book GetOneBookById (int id ,bool trackChanges );
-        void CreateOneBook(Book book);
+
+        Task<PagedList<Book>> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges);
+
+        Task<Book> GetOneBookByIdAsync(int id, bool trackChanges);
+        void CreateOneBook(Book book); //Asenkron kod yok
         void UpdateOneBook(Book book);
         void DeleteOneBook(Book book);
     }
