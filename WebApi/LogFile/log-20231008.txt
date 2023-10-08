@@ -1,0 +1,66 @@
+2023-10-08T09:16:24.1538818+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-08T09:16:24.2641587+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-08T09:16:24.3610895+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-08T09:16:24.4144936+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-08T09:16:30.1289611+03:00 0HMU7OOCLHKDS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger - - (ca22a1cb)
+2023-10-08T09:16:30.7286029+03:00 0HMU7OOCLHKDS:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger - - - 301 0 - 618.0802ms (791a596a)
+2023-10-08T09:16:30.7717618+03:00 0HMU7OOCLHKDS:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-08T09:16:31.9497513+03:00 0HMU7OOCLHKDR:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui.css - - (ca22a1cb)
+2023-10-08T09:16:31.9691285+03:00 0HMU7OOCLHKDS:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1197.6469ms (791a596a)
+2023-10-08T09:16:32.0247497+03:00 0HMU7OOCLHKDR:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2023-10-08T09:16:32.0253653+03:00 0HMU7OOCLHKDR:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui.css - - - 200 143632 text/css 75.4931ms (791a596a)
+2023-10-08T09:16:32.5146417+03:00 0HMU7OOCLHKDR:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-bundle.js - - (ca22a1cb)
+2023-10-08T09:16:32.5403269+03:00 0HMU7OOCLHKDS:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-standalone-preset.js - - (ca22a1cb)
+2023-10-08T09:16:32.5587428+03:00 0HMU7OOCLHKDT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-08T09:16:32.5879776+03:00 0HMU7OOCLHKDU:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-08T09:16:32.6110977+03:00 0HMU7OOCLHKDS:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2023-10-08T09:16:32.6115126+03:00 0HMU7OOCLHKDS:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 71.2154ms (791a596a)
+2023-10-08T09:16:32.6117495+03:00 0HMU7OOCLHKDT:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 54.6689ms (791a596a)
+2023-10-08T09:16:32.6374950+03:00 0HMU7OOCLHKDR:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2023-10-08T09:16:32.6379161+03:00 0HMU7OOCLHKDR:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 123.2194ms (791a596a)
+2023-10-08T09:16:32.8181489+03:00 0HMU7OOCLHKDU:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 229.9761ms (791a596a)
+2023-10-08T09:16:33.1848056+03:00 0HMU7OOCLHKDU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/favicon-32x32.png - - (ca22a1cb)
+2023-10-08T09:16:33.1859913+03:00 0HMU7OOCLHKDU:00000003 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2023-10-08T09:16:33.1866946+03:00 0HMU7OOCLHKDU:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/favicon-32x32.png - - - 200 628 image/png 1.7313ms (791a596a)
+2023-10-08T09:16:33.3200652+03:00 0HMU7OOCLHKDU:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-08T09:16:33.8636686+03:00 0HMU7OOCLHKDU:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 543.5568ms (791a596a)
+2023-10-08T09:17:12.6608459+03:00 0HMU7OOCLHKDV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?MinPrice=200&MaxPrice=1000&ValidPriceRange=true&PageNumber=1&PageSize=20&OrderBy=id&Fields=title - - (ca22a1cb)
+2023-10-08T09:17:12.7014485+03:00 0HMU7OOCLHKDV:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-08T09:17:12.7015201+03:00 0HMU7OOCLHKDV:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-08T09:17:12.7101833+03:00 0HMU7OOCLHKDV:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-08T09:17:12.7650613+03:00 0HMU7OOCLHKDV:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-08T09:17:14.1532364+03:00 0HMU7OOCLHKDV:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-08T09:17:14.1532947+03:00 0HMU7OOCLHKDV:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-08T09:17:19.8428081+03:00 0HMU7OOCLHKDV:00000002 [INF] Executed DbCommand ("199"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-08T09:17:20.0674907+03:00 0HMU7OOCLHKDV:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]"'. (605b4265)
+2023-10-08T09:17:20.2958491+03:00 0HMU7OOCLHKDV:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 7521.5041ms (afa2e885)
+2023-10-08T09:17:20.2973443+03:00 0HMU7OOCLHKDV:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-08T09:17:20.3278560+03:00 0HMU7OOCLHKDV:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?MinPrice=200&MaxPrice=1000&ValidPriceRange=true&PageNumber=1&PageSize=20&OrderBy=id&Fields=title - - - 200 741 application/json;+charset=utf-8 7666.9263ms (791a596a)
+2023-10-08T09:18:12.8323445+03:00 0HMU7OOCLHKE0:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?MinPrice=200&MaxPrice=1000&ValidPriceRange=true&PageNumber=1&PageSize=20&OrderBy=id&Fields=title%2Cprice - - (ca22a1cb)
+2023-10-08T09:18:12.8327776+03:00 0HMU7OOCLHKE0:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-08T09:18:12.8424448+03:00 0HMU7OOCLHKE0:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-08T09:18:12.9294908+03:00 0HMU7OOCLHKE0:00000002 [INF] Executed DbCommand ("16"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-08T09:18:12.9315360+03:00 0HMU7OOCLHKE0:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]"'. (605b4265)
+2023-10-08T09:18:12.9329412+03:00 0HMU7OOCLHKE0:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 90.1498ms (afa2e885)
+2023-10-08T09:18:12.9329950+03:00 0HMU7OOCLHKE0:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-08T09:18:12.9331788+03:00 0HMU7OOCLHKE0:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?MinPrice=200&MaxPrice=1000&ValidPriceRange=true&PageNumber=1&PageSize=20&OrderBy=id&Fields=title%2Cprice - - - 200 1045 application/json;+charset=utf-8 100.8654ms (791a596a)
+2023-10-08T09:18:24.3031575+03:00 0HMU7OOCLHKE1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?MinPrice=200&MaxPrice=1000&ValidPriceRange=true&PageNumber=1&PageSize=20&OrderBy=id&Fields=id - - (ca22a1cb)
+2023-10-08T09:18:24.6735915+03:00 0HMU7OOCLHKE1:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-08T09:18:24.6737367+03:00 0HMU7OOCLHKE1:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-08T09:18:24.7049032+03:00 0HMU7OOCLHKE1:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-08T09:18:24.7060518+03:00 0HMU7OOCLHKE1:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]"'. (605b4265)
+2023-10-08T09:18:24.7099205+03:00 0HMU7OOCLHKE1:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 36.0859ms (afa2e885)
+2023-10-08T09:18:24.7100054+03:00 0HMU7OOCLHKE1:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-08T09:18:24.7102956+03:00 0HMU7OOCLHKE1:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?MinPrice=200&MaxPrice=1000&ValidPriceRange=true&PageNumber=1&PageSize=20&OrderBy=id&Fields=id - - - 200 196 application/json;+charset=utf-8 407.1519ms (791a596a)

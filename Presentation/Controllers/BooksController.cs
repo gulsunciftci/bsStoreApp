@@ -27,7 +27,7 @@ namespace Presentation.Controllers
         public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters)
         {
             
-                var pagedResult = await _manager.BookService.GetAllBooksAsync(bookParameters,false);
+            var pagedResult = await _manager.BookService.GetAllBooksAsync(bookParameters,false);
                 
 
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
