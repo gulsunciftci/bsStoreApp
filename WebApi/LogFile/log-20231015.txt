@@ -1,0 +1,594 @@
+2023-10-15T10:08:58.1020805+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:08:58.1210988+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:08:58.1321392+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:08:58.1351569+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:09:01.5557457+03:00 0HMUD9MD0V9OE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger - - (ca22a1cb)
+2023-10-15T10:09:01.8598727+03:00 0HMUD9MD0V9OE:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger - - - 301 0 - 316.0868ms (791a596a)
+2023-10-15T10:09:01.8925127+03:00 0HMUD9MD0V9OE:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:09:02.5604688+03:00 0HMUD9MD0V9OD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui.css - - (ca22a1cb)
+2023-10-15T10:09:02.5736765+03:00 0HMUD9MD0V9OE:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 681.1509ms (791a596a)
+2023-10-15T10:09:02.6017301+03:00 0HMUD9MD0V9OD:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2023-10-15T10:09:02.6022473+03:00 0HMUD9MD0V9OD:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui.css - - - 200 143632 text/css 41.8462ms (791a596a)
+2023-10-15T10:09:02.8448163+03:00 0HMUD9MD0V9OD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-bundle.js - - (ca22a1cb)
+2023-10-15T10:09:02.8590683+03:00 0HMUD9MD0V9OF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:09:02.8590762+03:00 0HMUD9MD0V9OE:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-standalone-preset.js - - (ca22a1cb)
+2023-10-15T10:09:02.8878641+03:00 0HMUD9MD0V9OG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:09:02.9019595+03:00 0HMUD9MD0V9OF:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 42.5873ms (791a596a)
+2023-10-15T10:09:02.9242240+03:00 0HMUD9MD0V9OE:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2023-10-15T10:09:02.9308427+03:00 0HMUD9MD0V9OE:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 74.6447ms (791a596a)
+2023-10-15T10:09:02.9440154+03:00 0HMUD9MD0V9OD:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2023-10-15T10:09:02.9443416+03:00 0HMUD9MD0V9OD:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 99.4556ms (791a596a)
+2023-10-15T10:09:03.0232521+03:00 0HMUD9MD0V9OG:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 135.3143ms (791a596a)
+2023-10-15T10:09:03.1885740+03:00 0HMUD9MD0V9OG:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/favicon-32x32.png - - (ca22a1cb)
+2023-10-15T10:09:03.1891977+03:00 0HMUD9MD0V9OG:00000003 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2023-10-15T10:09:03.1894679+03:00 0HMUD9MD0V9OG:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/favicon-32x32.png - - - 200 628 image/png 0.9352ms (791a596a)
+2023-10-15T10:09:03.2386895+03:00 0HMUD9MD0V9OG:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:09:03.4930808+03:00 0HMUD9MD0V9OG:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 254.3536ms (791a596a)
+2023-10-15T10:09:16.3765721+03:00 0HMUD9MD0V9OH:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:09:16.4476456+03:00 0HMUD9MD0V9OH:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:09:16.4480371+03:00 0HMUD9MD0V9OH:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:09:16.4570172+03:00 0HMUD9MD0V9OH:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:09:16.5153089+03:00 0HMUD9MD0V9OH:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:09:17.9087942+03:00 0HMUD9MD0V9OH:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:09:17.9088514+03:00 0HMUD9MD0V9OH:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:09:23.2475979+03:00 0HMUD9MD0V9OH:00000002 [INF] Executed DbCommand ("194"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:09:41.3012969+03:00 0HMUD9MD0V9OH:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 24776.2371ms (afa2e885)
+2023-10-15T10:09:41.3040620+03:00 0HMUD9MD0V9OH:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:09:41.3958433+03:00 0HMUD9MD0V9OH:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.BookLinks.ShapedData(IEnumerable`1 booksDto, String fields) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookLinks.cs:line 64
+   at Services.BookLinks.TryGenerateLinks(IEnumerable`1 booksDto, String fields, HttpContext httpContext) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookLinks.cs:line 20
+   at Services.BookManager.GetAllBooksAsync(LinkParameters linkParameters, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 71
+   at Presentation.Controllers.BooksController.GetAllBooksAsync(BookParameters bookParameters) in C:\Users\Hp\source\repos\bsStoreApp\Presentation\Controllers\BooksController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-15T10:09:41.3959365+03:00 0HMUD9MD0V9OH:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.BookLinks.ShapedData(IEnumerable`1 booksDto, String fields) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookLinks.cs:line 64
+   at Services.BookLinks.TryGenerateLinks(IEnumerable`1 booksDto, String fields, HttpContext httpContext) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookLinks.cs:line 20
+   at Services.BookManager.GetAllBooksAsync(LinkParameters linkParameters, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 71
+   at Presentation.Controllers.BooksController.GetAllBooksAsync(BookParameters bookParameters) in C:\Users\Hp\source\repos\bsStoreApp\Presentation\Controllers\BooksController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-15T10:09:41.4300192+03:00 0HMUD9MD0V9OH:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 500 - application/json 25053.4148ms (791a596a)
+2023-10-15T10:10:28.2135241+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:10:28.2448506+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:10:28.2492340+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:10:28.2520705+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:10:29.6515829+03:00 0HMUD9N7QD72M:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:10:30.8997552+03:00 0HMUD9N7QD72M:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1267.6827ms (791a596a)
+2023-10-15T10:10:31.3143918+03:00 0HMUD9N7QD72N:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:10:31.3202233+03:00 0HMUD9N7QD72M:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:10:31.3291156+03:00 0HMUD9N7QD72M:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.7633ms (791a596a)
+2023-10-15T10:10:31.3800825+03:00 0HMUD9N7QD72N:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.6608ms (791a596a)
+2023-10-15T10:10:31.6923110+03:00 0HMUD9N7QD72N:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:10:32.1431190+03:00 0HMUD9N7QD72N:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 450.8716ms (791a596a)
+2023-10-15T10:10:45.0827820+03:00 0HMUD9N7QD72O:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=5 - - (ca22a1cb)
+2023-10-15T10:10:45.1241232+03:00 0HMUD9N7QD72O:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:10:45.1242083+03:00 0HMUD9N7QD72O:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:10:45.1337419+03:00 0HMUD9N7QD72O:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:10:45.1931169+03:00 0HMUD9N7QD72O:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:10:46.5792575+03:00 0HMUD9N7QD72O:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:10:46.5793308+03:00 0HMUD9N7QD72O:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:10:49.9433450+03:00 0HMUD9N7QD72O:00000002 [INF] Executed DbCommand ("155"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:14:55.8781530+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:14:55.9141257+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:14:55.9183486+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:14:55.9210218+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:14:56.5379153+03:00 0HMUD9PNJADRA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:14:57.6042459+03:00 0HMUD9PNJADRA:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1041.7337ms (791a596a)
+2023-10-15T10:14:57.9755247+03:00 0HMUD9PNJADRB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:14:57.9783967+03:00 0HMUD9PNJADRA:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:14:57.9836453+03:00 0HMUD9PNJADRB:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.0082ms (791a596a)
+2023-10-15T10:14:58.0631027+03:00 0HMUD9PNJADRA:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.5686ms (791a596a)
+2023-10-15T10:14:58.1870951+03:00 0HMUD9PNJADRA:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:14:58.6143566+03:00 0HMUD9PNJADRA:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 429.0924ms (791a596a)
+2023-10-15T10:15:07.5138884+03:00 0HMUD9PNJADRC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=5 - - (ca22a1cb)
+2023-10-15T10:15:07.5547467+03:00 0HMUD9PNJADRC:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:15:07.5548120+03:00 0HMUD9PNJADRC:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:15:07.5638197+03:00 0HMUD9PNJADRC:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:15:07.6095898+03:00 0HMUD9PNJADRC:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:15:09.0114934+03:00 0HMUD9PNJADRC:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:15:09.0115762+03:00 0HMUD9PNJADRC:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:15:12.2086814+03:00 0HMUD9PNJADRC:00000002 [INF] Executed DbCommand ("143"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:15:12.3677136+03:00 0HMUD9PNJADRC:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:15:12.5295534+03:00 0HMUD9PNJADRC:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 4910.9136ms (afa2e885)
+2023-10-15T10:15:12.5314228+03:00 0HMUD9PNJADRC:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:15:12.5518682+03:00 0HMUD9PNJADRC:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=5 - - - 200 137 application/json;+charset=utf-8 5037.9539ms (791a596a)
+2023-10-15T10:15:39.4135438+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:15:39.4392944+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:15:39.4424872+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:15:39.4443184+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:15:40.4329778+03:00 0HMUD9Q4KE7P8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:15:41.3068537+03:00 0HMUD9Q4KE7P8:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 883.2192ms (791a596a)
+2023-10-15T10:15:41.3693386+03:00 0HMUD9Q4KE7P8:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:15:41.3814470+03:00 0HMUD9Q4KE7P8:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 12.2748ms (791a596a)
+2023-10-15T10:15:41.8423229+03:00 0HMUD9Q4KE7P8:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:15:41.9442437+03:00 0HMUD9Q4KE7P8:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 101.7767ms (791a596a)
+2023-10-15T10:15:42.1205463+03:00 0HMUD9Q4KE7P8:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:15:42.4868804+03:00 0HMUD9Q4KE7P8:00000005 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 366.3676ms (791a596a)
+2023-10-15T10:15:55.5385081+03:00 0HMUD9Q4KE7PA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=5 - - (ca22a1cb)
+2023-10-15T10:15:55.5848752+03:00 0HMUD9Q4KE7PA:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:15:55.5851996+03:00 0HMUD9Q4KE7PA:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:15:55.5946862+03:00 0HMUD9Q4KE7PA:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:15:55.6446078+03:00 0HMUD9Q4KE7PA:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:15:57.3481829+03:00 0HMUD9Q4KE7PA:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:15:57.3483794+03:00 0HMUD9Q4KE7PA:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:16:00.4626284+03:00 0HMUD9Q4KE7PA:00000002 [INF] Executed DbCommand ("123"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:16:00.6226502+03:00 0HMUD9Q4KE7PA:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:16:00.6599470+03:00 0HMUD9Q4KE7PA:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 5006.9605ms (afa2e885)
+2023-10-15T10:16:00.6616779+03:00 0HMUD9Q4KE7PA:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:16:00.6834762+03:00 0HMUD9Q4KE7PA:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=5 - - - 200 367 application/xml;+charset=utf-8 5144.9575ms (791a596a)
+2023-10-15T10:17:39.1339879+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:17:39.1813060+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:17:39.1982283+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:17:39.2047613+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:17:40.5380558+03:00 0HMUD9R89E2M4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:17:42.2873530+03:00 0HMUD9R89E2M4:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1760.8009ms (791a596a)
+2023-10-15T10:17:42.8873712+03:00 0HMUD9R89E2M3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:17:42.9842591+03:00 0HMUD9R89E2M4:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:17:43.0021299+03:00 0HMUD9R89E2M4:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 17.6891ms (791a596a)
+2023-10-15T10:17:43.4677196+03:00 0HMUD9R89E2M3:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 580.3379ms (791a596a)
+2023-10-15T10:17:43.5956011+03:00 0HMUD9R89E2M3:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:17:44.2146793+03:00 0HMUD9R89E2M3:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 619.1928ms (791a596a)
+2023-10-15T10:18:04.9033355+03:00 0HMUD9R89E2M6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books - - (ca22a1cb)
+2023-10-15T10:18:04.9717678+03:00 0HMUD9R89E2M6:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:18:04.9719793+03:00 0HMUD9R89E2M6:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:18:04.9867154+03:00 0HMUD9R89E2M6:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:18:05.0873084+03:00 0HMUD9R89E2M6:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:18:07.5115957+03:00 0HMUD9R89E2M6:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:18:07.5118529+03:00 0HMUD9R89E2M6:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:18:13.2292907+03:00 0HMUD9R89E2M6:00000002 [INF] Executed DbCommand ("205"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:18:13.4684692+03:00 0HMUD9R89E2M6:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:18:13.6449190+03:00 0HMUD9R89E2M6:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 8539.0252ms (afa2e885)
+2023-10-15T10:18:13.6511201+03:00 0HMUD9R89E2M6:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:18:13.6925607+03:00 0HMUD9R89E2M6:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books - - - 200 2 application/json;+charset=utf-8 8789.3035ms (791a596a)
+2023-10-15T10:18:31.4683372+03:00 0HMUD9R89E2M6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/10000 - - (ca22a1cb)
+2023-10-15T10:18:31.4693953+03:00 0HMUD9R89E2M6:00000003 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)"' (500cc934)
+2023-10-15T10:18:31.4748802+03:00 0HMUD9R89E2M6:00000003 [INF] Route matched with "{action = \"GetOneBook\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOneBookAsync(Int32)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:18:31.6855588+03:00 0HMUD9R89E2M6:00000003 [INF] Executed DbCommand ("17"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0" (0723d8ff)
+2023-10-15T10:18:32.1064043+03:00 0HMUD9R89E2M6:00000003 [INF] Executed action "Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)" in 631.3114ms (afa2e885)
+2023-10-15T10:18:32.1075582+03:00 0HMUD9R89E2M6:00000003 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)"' (99874f2b)
+2023-10-15T10:18:32.2515793+03:00 0HMUD9R89E2M6:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Entities.Exceptions.BookNotFoundException: The book with id : 10000 could not found. 
+   at Services.BookManager.GetOneBookByIdAndCheckExists(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 128
+   at Services.BookManager.GetOneBookByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 79
+   at Presentation.Controllers.BooksController.GetOneBookAsync(Int32 id) in C:\Users\Hp\source\repos\bsStoreApp\Presentation\Controllers\BooksController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-15T10:18:32.2517235+03:00 0HMUD9R89E2M6:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Entities.Exceptions.BookNotFoundException: The book with id : 10000 could not found. 
+   at Services.BookManager.GetOneBookByIdAndCheckExists(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 128
+   at Services.BookManager.GetOneBookByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 79
+   at Presentation.Controllers.BooksController.GetOneBookAsync(Int32 id) in C:\Users\Hp\source\repos\bsStoreApp\Presentation\Controllers\BooksController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-15T10:18:32.2692527+03:00 0HMUD9R89E2M6:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/10000 - - - 404 - application/json 800.9327ms (791a596a)
+2023-10-15T10:18:48.2595243+03:00 0HMUD9R89E2M7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:18:48.2613903+03:00 0HMUD9R89E2M7:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:18:48.2621136+03:00 0HMUD9R89E2M7:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:18:48.3474385+03:00 0HMUD9R89E2M7:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:18:48.7749498+03:00 0HMUD9R89E2M7:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:18:48.8028905+03:00 0HMUD9R89E2M7:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 540.62ms (afa2e885)
+2023-10-15T10:18:48.8029827+03:00 0HMUD9R89E2M7:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:18:48.8033191+03:00 0HMUD9R89E2M7:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 367 application/xml;+charset=utf-8 543.7858ms (791a596a)
+2023-10-15T10:19:53.3650756+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:19:53.4163644+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:19:53.4218365+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:19:53.4312538+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:19:54.8700973+03:00 0HMUD9SG7PLDK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:19:56.4032721+03:00 0HMUD9SG7PLDK:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1582.9103ms (791a596a)
+2023-10-15T10:19:56.9887922+03:00 0HMUD9SG7PLDL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:19:56.9959630+03:00 0HMUD9SG7PLDK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:19:57.0110644+03:00 0HMUD9SG7PLDK:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 14.9407ms (791a596a)
+2023-10-15T10:19:57.1163439+03:00 0HMUD9SG7PLDL:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.6225ms (791a596a)
+2023-10-15T10:19:57.3031471+03:00 0HMUD9SG7PLDL:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:19:57.8342476+03:00 0HMUD9SG7PLDL:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 531.0935ms (791a596a)
+2023-10-15T10:20:23.2253691+03:00 0HMUD9SG7PLDM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=10 - - (ca22a1cb)
+2023-10-15T10:20:23.2891392+03:00 0HMUD9SG7PLDM:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:20:23.2893094+03:00 0HMUD9SG7PLDM:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:20:23.3009112+03:00 0HMUD9SG7PLDM:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:20:23.3724950+03:00 0HMUD9SG7PLDM:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:20:26.4829329+03:00 0HMUD9SG7PLDM:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:20:26.4831779+03:00 0HMUD9SG7PLDM:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:20:30.7617150+03:00 0HMUD9SG7PLDM:00000002 [INF] Executed DbCommand ("173"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:20:30.9870560+03:00 0HMUD9SG7PLDM:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:20:31.1568295+03:00 0HMUD9SG7PLDM:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 7767.7348ms (afa2e885)
+2023-10-15T10:20:31.1591185+03:00 0HMUD9SG7PLDM:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:20:31.2061146+03:00 0HMUD9SG7PLDM:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=10 - - - 200 2 application/json;+charset=utf-8 7980.5825ms (791a596a)
+2023-10-15T10:20:43.0781301+03:00 0HMUD9SG7PLDN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:20:43.0787783+03:00 0HMUD9SG7PLDN:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:20:43.0791991+03:00 0HMUD9SG7PLDN:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:20:43.1451453+03:00 0HMUD9SG7PLDN:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:20:43.1489089+03:00 0HMUD9SG7PLDN:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:20:43.1859906+03:00 0HMUD9SG7PLDN:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 106.6948ms (afa2e885)
+2023-10-15T10:20:43.1860724+03:00 0HMUD9SG7PLDN:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:20:43.1863514+03:00 0HMUD9SG7PLDN:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 108.2980ms (791a596a)
+2023-10-15T10:21:03.6314676+03:00 0HMUD9SG7PLDP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:21:03.6320164+03:00 0HMUD9SG7PLDP:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:21:03.6330012+03:00 0HMUD9SG7PLDP:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:21:03.6661333+03:00 0HMUD9SG7PLDP:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:21:03.6667976+03:00 0HMUD9SG7PLDP:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:21:03.6670654+03:00 0HMUD9SG7PLDP:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 33.9233ms (afa2e885)
+2023-10-15T10:21:03.6671247+03:00 0HMUD9SG7PLDP:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:21:03.6673578+03:00 0HMUD9SG7PLDP:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 35.8498ms (791a596a)
+2023-10-15T10:21:17.8636050+03:00 0HMUD9SG7PLDP:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:21:17.8637623+03:00 0HMUD9SG7PLDP:00000003 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:21:17.8638694+03:00 0HMUD9SG7PLDP:00000003 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:21:17.8747761+03:00 0HMUD9SG7PLDP:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:21:17.8847790+03:00 0HMUD9SG7PLDP:00000003 [WRN] No output formatter was found for content types '["application/xml"]' to write the response. (2a6043fb)
+2023-10-15T10:21:17.8848874+03:00 0HMUD9SG7PLDP:00000003 [WRN] No output formatter was found for content types '["application/xml"]' to write the response. (2a6043fb)
+2023-10-15T10:21:17.8849743+03:00 0HMUD9SG7PLDP:00000003 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 21.0315ms (afa2e885)
+2023-10-15T10:21:17.8850190+03:00 0HMUD9SG7PLDP:00000003 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:21:17.8852371+03:00 0HMUD9SG7PLDP:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 406 0 - 21.6323ms (791a596a)
+2023-10-15T10:21:44.9356006+03:00 0HMUD9SG7PLDP:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:21:44.9358198+03:00 0HMUD9SG7PLDP:00000004 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:21:44.9359672+03:00 0HMUD9SG7PLDP:00000004 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:21:44.9430003+03:00 0HMUD9SG7PLDP:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:21:44.9453601+03:00 0HMUD9SG7PLDP:00000004 [WRN] No output formatter was found for content types '["application/xml"]' to write the response. (2a6043fb)
+2023-10-15T10:21:44.9454128+03:00 0HMUD9SG7PLDP:00000004 [WRN] No output formatter was found for content types '["application/xml"]' to write the response. (2a6043fb)
+2023-10-15T10:21:44.9454920+03:00 0HMUD9SG7PLDP:00000004 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 9.4527ms (afa2e885)
+2023-10-15T10:21:44.9455261+03:00 0HMUD9SG7PLDP:00000004 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:21:44.9456794+03:00 0HMUD9SG7PLDP:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 406 0 - 10.1231ms (791a596a)
+2023-10-15T10:21:58.4317300+03:00 0HMUD9SG7PLDP:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:21:58.4318997+03:00 0HMUD9SG7PLDP:00000005 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:21:58.4320188+03:00 0HMUD9SG7PLDP:00000005 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:21:58.4389181+03:00 0HMUD9SG7PLDP:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:21:58.4456605+03:00 0HMUD9SG7PLDP:00000005 [WRN] No output formatter was found for content types '["text/xml"]' to write the response. (2a6043fb)
+2023-10-15T10:21:58.4458164+03:00 0HMUD9SG7PLDP:00000005 [WRN] No output formatter was found for content types '["text/xml"]' to write the response. (2a6043fb)
+2023-10-15T10:21:58.4459615+03:00 0HMUD9SG7PLDP:00000005 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 13.8488ms (afa2e885)
+2023-10-15T10:21:58.4460041+03:00 0HMUD9SG7PLDP:00000005 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:21:58.4462728+03:00 0HMUD9SG7PLDP:00000005 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 406 0 - 14.5131ms (791a596a)
+2023-10-15T10:22:14.4567404+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:22:14.4862940+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:22:14.4907948+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:22:14.4929738+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:22:15.5672831+03:00 0HMUD9TQ95HQ1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:22:16.7025830+03:00 0HMUD9TQ95HQ1:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1150.8546ms (791a596a)
+2023-10-15T10:22:17.2134301+03:00 0HMUD9TQ95HQ2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:22:17.2335185+03:00 0HMUD9TQ95HQ1:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:22:17.2575615+03:00 0HMUD9TQ95HQ1:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 23.1083ms (791a596a)
+2023-10-15T10:22:17.3129206+03:00 0HMUD9TQ95HQ2:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.6206ms (791a596a)
+2023-10-15T10:22:17.4706854+03:00 0HMUD9TQ95HQ2:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:22:17.9625977+03:00 0HMUD9TQ95HQ2:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 491.8554ms (791a596a)
+2023-10-15T10:22:23.3728250+03:00 0HMUD9TQ95HQ4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:22:23.4184620+03:00 0HMUD9TQ95HQ4:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:22:23.4185248+03:00 0HMUD9TQ95HQ4:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:22:23.4267263+03:00 0HMUD9TQ95HQ4:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:22:23.4677944+03:00 0HMUD9TQ95HQ4:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:22:24.9402704+03:00 0HMUD9TQ95HQ4:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:22:24.9403831+03:00 0HMUD9TQ95HQ4:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:22:28.5115759+03:00 0HMUD9TQ95HQ4:00000002 [INF] Executed DbCommand ("145"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:22:28.7179489+03:00 0HMUD9TQ95HQ4:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:22:28.7615969+03:00 0HMUD9TQ95HQ4:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 5283.8515ms (afa2e885)
+2023-10-15T10:22:28.7628251+03:00 0HMUD9TQ95HQ4:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:22:28.7889362+03:00 0HMUD9TQ95HQ4:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 367 application/xml;+charset=utf-8 5416.1216ms (791a596a)
+2023-10-15T10:22:43.3184942+03:00 0HMUD9TQ95HQ4:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:22:43.3190716+03:00 0HMUD9TQ95HQ4:00000003 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:22:43.3196041+03:00 0HMUD9TQ95HQ4:00000003 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:22:43.3797799+03:00 0HMUD9TQ95HQ4:00000003 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:22:43.3806475+03:00 0HMUD9TQ95HQ4:00000003 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:22:43.4967267+03:00 0HMUD9TQ95HQ4:00000003 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 176.9061ms (afa2e885)
+2023-10-15T10:22:43.4967904+03:00 0HMUD9TQ95HQ4:00000003 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:22:43.4969807+03:00 0HMUD9TQ95HQ4:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 178.5196ms (791a596a)
+2023-10-15T10:22:54.6159993+03:00 0HMUD9TQ95HQ4:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:22:54.6167601+03:00 0HMUD9TQ95HQ4:00000004 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:22:54.6175348+03:00 0HMUD9TQ95HQ4:00000004 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:22:54.6419512+03:00 0HMUD9TQ95HQ4:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:22:54.6541107+03:00 0HMUD9TQ95HQ4:00000004 [WRN] No output formatter was found for content types '["text/csv"]' to write the response. (2a6043fb)
+2023-10-15T10:22:54.6542087+03:00 0HMUD9TQ95HQ4:00000004 [WRN] No output formatter was found for content types '["text/csv"]' to write the response. (2a6043fb)
+2023-10-15T10:22:54.6542987+03:00 0HMUD9TQ95HQ4:00000004 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 36.6934ms (afa2e885)
+2023-10-15T10:22:54.6543335+03:00 0HMUD9TQ95HQ4:00000004 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:22:54.6545322+03:00 0HMUD9TQ95HQ4:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 406 0 - 38.5637ms (791a596a)
+2023-10-15T10:23:21.5480576+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:23:21.5885333+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:23:21.5945854+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:23:21.5975732+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:23:22.2461424+03:00 0HMUD9UE8GL13:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:23:23.4564246+03:00 0HMUD9UE8GL13:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1225.4921ms (791a596a)
+2023-10-15T10:23:24.0205579+03:00 0HMUD9UE8GL13:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:23:24.0397914+03:00 0HMUD9UE8GL14:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:23:24.0608190+03:00 0HMUD9UE8GL14:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 20.8597ms (791a596a)
+2023-10-15T10:23:24.0980870+03:00 0HMUD9UE8GL13:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.6530ms (791a596a)
+2023-10-15T10:23:24.2712867+03:00 0HMUD9UE8GL13:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:23:24.6619736+03:00 0HMUD9UE8GL13:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 390.5899ms (791a596a)
+2023-10-15T10:23:27.3168299+03:00 0HMUD9UE8GL16:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:23:27.3688557+03:00 0HMUD9UE8GL16:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:23:27.3689523+03:00 0HMUD9UE8GL16:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:23:27.3845739+03:00 0HMUD9UE8GL16:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:23:27.4645602+03:00 0HMUD9UE8GL16:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:23:29.7006594+03:00 0HMUD9UE8GL16:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:23:29.7007829+03:00 0HMUD9UE8GL16:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:23:33.9650302+03:00 0HMUD9UE8GL16:00000002 [INF] Executed DbCommand ("200"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:23:34.2149222+03:00 0HMUD9UE8GL16:00000002 [WRN] No output formatter was found for content types '["text/csv"]' to write the response. (2a6043fb)
+2023-10-15T10:23:34.2151691+03:00 0HMUD9UE8GL16:00000002 [WRN] No output formatter was found for content types '["text/csv"]' to write the response. (2a6043fb)
+2023-10-15T10:23:34.2323913+03:00 0HMUD9UE8GL16:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 6752.7884ms (afa2e885)
+2023-10-15T10:23:34.2345974+03:00 0HMUD9UE8GL16:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:23:34.2891561+03:00 0HMUD9UE8GL16:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 406 0 - 6972.2304ms (791a596a)
+2023-10-15T10:23:36.9719179+03:00 0HMUD9UE8GL16:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:23:36.9722822+03:00 0HMUD9UE8GL16:00000003 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:23:36.9726437+03:00 0HMUD9UE8GL16:00000003 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:23:37.0635412+03:00 0HMUD9UE8GL16:00000003 [INF] Executed DbCommand ("9"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:23:37.0678684+03:00 0HMUD9UE8GL16:00000003 [WRN] No output formatter was found for content types '["text/csv"]' to write the response. (2a6043fb)
+2023-10-15T10:23:37.0679463+03:00 0HMUD9UE8GL16:00000003 [WRN] No output formatter was found for content types '["text/csv"]' to write the response. (2a6043fb)
+2023-10-15T10:23:37.0681147+03:00 0HMUD9UE8GL16:00000003 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 95.3693ms (afa2e885)
+2023-10-15T10:23:37.0681780+03:00 0HMUD9UE8GL16:00000003 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:23:37.0689061+03:00 0HMUD9UE8GL16:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 406 0 - 96.8611ms (791a596a)
+2023-10-15T10:23:46.4094479+03:00 0HMUD9UE8GL16:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:23:46.4102473+03:00 0HMUD9UE8GL16:00000004 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:23:46.4113931+03:00 0HMUD9UE8GL16:00000004 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:23:46.4530914+03:00 0HMUD9UE8GL16:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:23:46.4543275+03:00 0HMUD9UE8GL16:00000004 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:23:46.6113095+03:00 0HMUD9UE8GL16:00000004 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 199.794ms (afa2e885)
+2023-10-15T10:23:46.6113731+03:00 0HMUD9UE8GL16:00000004 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:23:46.6115309+03:00 0HMUD9UE8GL16:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 202.1236ms (791a596a)
+2023-10-15T10:23:55.7212166+03:00 0HMUD9UE8GL16:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:23:55.7213906+03:00 0HMUD9UE8GL16:00000005 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:23:55.7214790+03:00 0HMUD9UE8GL16:00000005 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:23:55.7288499+03:00 0HMUD9UE8GL16:00000005 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:23:55.7295202+03:00 0HMUD9UE8GL16:00000005 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:23:55.7465129+03:00 0HMUD9UE8GL16:00000005 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 24.9498ms (afa2e885)
+2023-10-15T10:23:55.7466035+03:00 0HMUD9UE8GL16:00000005 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:23:55.7467809+03:00 0HMUD9UE8GL16:00000005 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 367 application/xml;+charset=utf-8 25.5678ms (791a596a)
+2023-10-15T10:24:28.4678207+03:00 0HMUD9UE8GL16:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:24:28.4679941+03:00 0HMUD9UE8GL16:00000006 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:24:28.4680974+03:00 0HMUD9UE8GL16:00000006 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:24:28.4776529+03:00 0HMUD9UE8GL16:00000006 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:24:28.4782243+03:00 0HMUD9UE8GL16:00000006 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:24:28.4784980+03:00 0HMUD9UE8GL16:00000006 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 10.3532ms (afa2e885)
+2023-10-15T10:24:28.4785716+03:00 0HMUD9UE8GL16:00000006 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:24:28.4788064+03:00 0HMUD9UE8GL16:00000006 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 10.9764ms (791a596a)
+2023-10-15T10:24:33.3529443+03:00 0HMUD9UE8GL16:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books - - (ca22a1cb)
+2023-10-15T10:24:33.3530827+03:00 0HMUD9UE8GL16:00000007 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:24:33.3531570+03:00 0HMUD9UE8GL16:00000007 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:24:33.3622719+03:00 0HMUD9UE8GL16:00000007 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:24:33.3627953+03:00 0HMUD9UE8GL16:00000007 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:24:33.3629272+03:00 0HMUD9UE8GL16:00000007 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 9.7197ms (afa2e885)
+2023-10-15T10:24:33.3629667+03:00 0HMUD9UE8GL16:00000007 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:24:33.3631419+03:00 0HMUD9UE8GL16:00000007 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books - - - 200 2 application/json;+charset=utf-8 10.1783ms (791a596a)
+2023-10-15T10:25:00.3642581+03:00 0HMUD9UE8GL16:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:25:00.3643794+03:00 0HMUD9UE8GL16:00000008 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:25:00.3644559+03:00 0HMUD9UE8GL16:00000008 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:25:00.3733821+03:00 0HMUD9UE8GL16:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:25:00.3775525+03:00 0HMUD9UE8GL16:00000008 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:25:00.3777282+03:00 0HMUD9UE8GL16:00000008 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 13.2275ms (afa2e885)
+2023-10-15T10:25:00.3777720+03:00 0HMUD9UE8GL16:00000008 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:25:00.3779353+03:00 0HMUD9UE8GL16:00000008 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 13.6685ms (791a596a)
+2023-10-15T10:31:57.0819639+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-15T10:31:57.1176228+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-15T10:31:57.1226397+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-15T10:31:57.1323093+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-15T10:31:57.9145948+03:00 0HMUDA37T8D32:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-15T10:31:59.8232740+03:00 0HMUDA37T8D32:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1930.7944ms (791a596a)
+2023-10-15T10:32:00.5579697+03:00 0HMUDA37T8D33:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-15T10:32:00.5719356+03:00 0HMUDA37T8D32:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-15T10:32:00.5965642+03:00 0HMUDA37T8D32:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 24.6439ms (791a596a)
+2023-10-15T10:32:00.7029603+03:00 0HMUDA37T8D33:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 144.7005ms (791a596a)
+2023-10-15T10:32:01.0297996+03:00 0HMUDA37T8D33:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-15T10:32:01.7998362+03:00 0HMUDA37T8D33:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 769.9803ms (791a596a)
+2023-10-15T10:32:12.9841483+03:00 0HMUDA37T8D34:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:32:13.0298313+03:00 0HMUDA37T8D34:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:32:13.0299995+03:00 0HMUDA37T8D34:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-15T10:32:13.0398520+03:00 0HMUDA37T8D34:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:32:13.1019386+03:00 0HMUDA37T8D34:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:32:15.1082532+03:00 0HMUDA37T8D34:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:32:15.1084025+03:00 0HMUDA37T8D34:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-15T10:32:18.9322914+03:00 0HMUDA37T8D34:00000002 [INF] Executed DbCommand ("149"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:32:19.1176519+03:00 0HMUDA37T8D34:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:32:19.3009458+03:00 0HMUDA37T8D34:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 6184.7698ms (afa2e885)
+2023-10-15T10:32:19.3030935+03:00 0HMUDA37T8D34:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:32:19.3374636+03:00 0HMUDA37T8D34:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 6353.2395ms (791a596a)
+2023-10-15T10:32:39.6923937+03:00 0HMUDA37T8D36:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-15T10:32:39.6930526+03:00 0HMUDA37T8D36:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-15T10:32:39.6938555+03:00 0HMUDA37T8D36:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:32:39.8168655+03:00 0HMUDA37T8D36:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-15T10:32:39.8179037+03:00 0HMUDA37T8D36:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-15T10:32:39.8183356+03:00 0HMUDA37T8D36:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 124.2826ms (afa2e885)
+2023-10-15T10:32:39.8184182+03:00 0HMUDA37T8D36:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-15T10:32:39.8186562+03:00 0HMUDA37T8D36:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books?PageNumber=1&PageSize=10 - - - 200 137 application/json;+charset=utf-8 126.3365ms (791a596a)
+2023-10-15T10:33:14.0920905+03:00 0HMUDA37T8D36:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/10000 - - (ca22a1cb)
+2023-10-15T10:33:14.0938767+03:00 0HMUDA37T8D36:00000003 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)"' (500cc934)
+2023-10-15T10:33:14.1015507+03:00 0HMUDA37T8D36:00000003 [INF] Route matched with "{action = \"GetOneBook\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOneBookAsync(Int32)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:33:14.2389330+03:00 0HMUDA37T8D36:00000003 [INF] Executed DbCommand ("6"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0" (0723d8ff)
+2023-10-15T10:33:14.6477191+03:00 0HMUDA37T8D36:00000003 [INF] Executed action "Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)" in 545.9932ms (afa2e885)
+2023-10-15T10:33:14.6488060+03:00 0HMUDA37T8D36:00000003 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)"' (99874f2b)
+2023-10-15T10:33:14.7735596+03:00 0HMUDA37T8D36:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Entities.Exceptions.BookNotFoundException: The book with id : 10000 could not found. 
+   at Services.BookManager.GetOneBookByIdAndCheckExists(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 128
+   at Services.BookManager.GetOneBookByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 79
+   at Presentation.Controllers.BooksController.GetOneBookAsync(Int32 id) in C:\Users\Hp\source\repos\bsStoreApp\Presentation\Controllers\BooksController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-15T10:33:14.7736969+03:00 0HMUDA37T8D36:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Entities.Exceptions.BookNotFoundException: The book with id : 10000 could not found. 
+   at Services.BookManager.GetOneBookByIdAndCheckExists(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 128
+   at Services.BookManager.GetOneBookByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\Hp\source\repos\bsStoreApp\Services\BookManager.cs:line 79
+   at Presentation.Controllers.BooksController.GetOneBookAsync(Int32 id) in C:\Users\Hp\source\repos\bsStoreApp\Presentation\Controllers\BooksController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-15T10:33:14.7893310+03:00 0HMUDA37T8D36:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/10000 - - - 404 - application/json 697.2381ms (791a596a)
+2023-10-15T10:33:21.0904557+03:00 0HMUDA37T8D36:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/1 - - (ca22a1cb)
+2023-10-15T10:33:21.0908906+03:00 0HMUDA37T8D36:00000004 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)"' (500cc934)
+2023-10-15T10:33:21.0911451+03:00 0HMUDA37T8D36:00000004 [INF] Route matched with "{action = \"GetOneBook\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOneBookAsync(Int32)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-15T10:33:21.1016205+03:00 0HMUDA37T8D36:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[Id], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0" (0723d8ff)
+2023-10-15T10:33:21.1048382+03:00 0HMUDA37T8D36:00000004 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObject.BookDto"'. (605b4265)
+2023-10-15T10:33:21.1520090+03:00 0HMUDA37T8D36:00000004 [INF] Executed action "Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)" in 60.6006ms (afa2e885)
+2023-10-15T10:33:21.1521285+03:00 0HMUDA37T8D36:00000004 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetOneBookAsync (Presentation)"' (99874f2b)
+2023-10-15T10:33:21.1525859+03:00 0HMUDA37T8D36:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/1 - - - 200 52 application/json;+charset=utf-8 62.0881ms (791a596a)

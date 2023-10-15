@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using NLog;
 using Presentation.ActionFilters;
 using Repositories.EFCore;
+using Services;
 using Services.Contracts;
 using WebApi.Extensions;
 using LogLevel = Microsoft.Extensions.Logging.LogLevel;
@@ -22,7 +23,8 @@ builder.Services.AddControllers(config =>
 })
     //.AddCustomCsvFormatter()
     //.AddXmlDataContractSerializerFormatters() //xml formatýnda çýkýþ vermesini saðladýk
-    .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly).AddNewtonsoftJson();
+    .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
+    .AddNewtonsoftJson();
 
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -41,6 +43,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilters();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureDataShaper();
+builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<IBookLinks, BookLinks>();
 var app = builder.Build();
 
 
