@@ -4,6 +4,7 @@ using Entities.DataTransferObjects;
 using Entities.Exceptions;
 using Entities.Models;
 using Entities.RequestFeatures;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.ActionFilters;
@@ -13,7 +14,7 @@ using System.Text.Json;
 namespace Presentation.Controllers
 {
     [ServiceFilter(typeof(LogFilterAttribute))]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class BooksController : ControllerBase //Kalıtım
     {
@@ -25,6 +26,7 @@ namespace Presentation.Controllers
         }
 
         [HttpGet]
+        //[HttpHead]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters)
         {
@@ -117,5 +119,13 @@ namespace Presentation.Controllers
            
 
         }
-    }
+
+		[HttpOptions]
+		public IActionResult GetBooksOptions()
+		{
+			Response.Headers.Add("Allow", "GET, PUT, POST, PATCH, DELETE, HEAD, OPTIONS");
+			return Ok();
+		}
+
+	}
 }
