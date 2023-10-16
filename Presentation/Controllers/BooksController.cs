@@ -13,7 +13,8 @@ using System.Text.Json;
 
 namespace Presentation.Controllers
 {
-    [ServiceFilter(typeof(LogFilterAttribute))]
+	//[ApiVersion("1.0")]
+	[ServiceFilter(typeof(LogFilterAttribute))]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class BooksController : ControllerBase //Kalıtım

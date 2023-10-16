@@ -18,5 +18,6 @@ namespace Repositories.Contracts
         void CreateOneBook(Book book); //Asenkron kod yok
         void UpdateOneBook(Book book);
         void DeleteOneBook(Book book);
-    }
+		Task<List<Book>> GetAllBooksAsync(bool trackChanges);
+	}
 }
