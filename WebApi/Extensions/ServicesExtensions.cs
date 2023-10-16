@@ -10,6 +10,7 @@ using Services;
 using Services.Contracts;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Presentation.Controllers;
+using Marvin.Cache.Headers;
 
 namespace WebApi.Extensions
 {
@@ -103,6 +104,22 @@ namespace WebApi.Extensions
 					.HasDeprecatedApiVersion(new ApiVersion(2, 0));
 			});
 		}
+
+		public static void ConfigureResponseCaching(this IServiceCollection services) =>
+		   services.AddResponseCaching();
+
+
+		public static void ConfigureHttpCacheHeaders(this IServiceCollection services) =>
+		   services.AddHttpCacheHeaders(expirationOpt =>
+		   {
+			   expirationOpt.MaxAge = 90;
+			   expirationOpt.CacheLocation = CacheLocation.Public;
+		   },
+		   validationOpt =>
+		   {
+			   validationOpt.MustRevalidate = false;
+		   });
+
 
 	}
 }

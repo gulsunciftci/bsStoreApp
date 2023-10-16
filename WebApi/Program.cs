@@ -20,6 +20,7 @@ builder.Services.AddControllers(config =>
 {
     config.RespectBrowserAcceptHeader = true; //içerik pazarlýðýna açýðýz
     config.ReturnHttpNotAcceptable = true;
+    config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
 })
     //.AddCustomCsvFormatter()
     //.AddXmlDataContractSerializerFormatters() //xml formatýnda çýkýþ vermesini saðladýk
@@ -46,6 +47,8 @@ builder.Services.ConfigureDataShaper();
 builder.Services.AddCustomMediaTypes();
 builder.Services.ConfigureVersioning();
 builder.Services.AddScoped<IBookLinks, BookLinks>();
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
 var app = builder.Build();
 
 
@@ -67,7 +70,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
-app.UseCors("CorsPolicy");
+app.UseCors("CorsPolicy"); //corstan sonra cash çaðrýlmasý önerilir
+app.UseResponseCaching();
+app.UseHttpCacheHeaders();
 app.UseAuthorization();
 
 app.MapControllers();
