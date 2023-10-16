@@ -1,3 +1,4 @@
+using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -49,6 +50,9 @@ builder.Services.ConfigureVersioning();
 builder.Services.AddScoped<IBookLinks, BookLinks>();
 builder.Services.ConfigureResponseCaching();
 builder.Services.ConfigureHttpCacheHeaders();
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddHttpContextAccessor();
 var app = builder.Build();
 
 
@@ -70,6 +74,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy"); //corstan sonra cash çaðrýlmasý önerilir
 app.UseResponseCaching();
 app.UseHttpCacheHeaders();
