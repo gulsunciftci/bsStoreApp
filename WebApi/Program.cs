@@ -53,6 +53,11 @@ builder.Services.ConfigureHttpCacheHeaders();
 builder.Services.AddMemoryCache();
 builder.Services.ConfigureRateLimitingOptions();
 builder.Services.AddHttpContextAccessor();
+
+//Identity için
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
+
 var app = builder.Build();
 
 
@@ -78,6 +83,8 @@ app.UseIpRateLimiting();
 app.UseCors("CorsPolicy"); //corstan sonra cash çaðrýlmasý önerilir
 app.UseResponseCaching();
 app.UseHttpCacheHeaders();
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

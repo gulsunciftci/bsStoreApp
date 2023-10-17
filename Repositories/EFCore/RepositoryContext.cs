@@ -1,11 +1,12 @@
-﻿
-using Entities.Models;
+﻿using Entities.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Repositories.EFCore.Config;
+using System.Reflection;
 
 namespace Repositories.EFCore
 {
-    public class RepositoryContext:DbContext
+    public class RepositoryContext:IdentityDbContext<User>
     {
        public RepositoryContext (DbContextOptions options):base(options)
        {
@@ -14,7 +15,12 @@ namespace Repositories.EFCore
        public DbSet<Book> Books { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new BookConfig());
-        }
+            base.OnModelCreating(modelBuilder);
+			//modelBuilder.ApplyConfiguration(new BookConfig());
+			//modelBuilder.ApplyConfiguration(new RoleConfiguration());
+
+            //Tek bir yapıda topladık
+			modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly()); 
+		}
     }
 }
