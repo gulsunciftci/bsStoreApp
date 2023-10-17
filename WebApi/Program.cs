@@ -26,7 +26,9 @@ builder.Services.AddControllers(config =>
     //.AddCustomCsvFormatter()
     //.AddXmlDataContractSerializerFormatters() //xml formatýnda çýkýþ vermesini saðladýk
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
-    .AddNewtonsoftJson();
+    .AddNewtonsoftJson(opt=>
+        opt.SerializerSettings.ReferenceLoopHandling
+          =Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -58,7 +60,8 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJWT(builder.Configuration);
 builder.Services.ConfigureSwagger();
-
+builder.Services.RegisterRepositories();
+builder.Services.RegisterServices();
 
 var app = builder.Build();
 

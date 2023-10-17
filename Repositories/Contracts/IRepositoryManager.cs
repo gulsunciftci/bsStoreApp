@@ -16,6 +16,7 @@ namespace Repositories.Contracts
         /// işlemlerin toplu halde tek bir kanaldan gerçekleşmesini sağlar.
         /// </summary>
         IBookRepository Book { get; }
+        ICategoryRepository Category { get; }
         Task SaveAsync(); //tipi void ise task yalnız yazılabilir
 
     }

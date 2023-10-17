@@ -2890,3 +2890,1028 @@ ORDER BY [b].[Id]" (0723d8ff)
 2023-10-17T11:29:58.0027554+03:00 0HMUET81HEA8P:00000002 [INF] Generating 304 - Not Modified. (e88b5280)
 2023-10-17T11:29:58.0103859+03:00 0HMUET81HEA8P:00000002 [INF] Generation done. ETag: Strong, "9E14208CC513D04843AD03D8B64E281F", Last-Modified: Tue, 17 Oct 2023 08:24:14 GMT. (2075b1cc)
 2023-10-17T11:29:58.0105877+03:00 0HMUET81HEA8P:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=11 - - - 304 - - 27.4347ms (791a596a)
+2023-10-17T13:07:55.5875896+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T13:07:56.8154669+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T13:07:56.8345197+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T13:07:56.8401115+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T13:07:56.8440356+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T13:07:59.8984199+03:00 0HMUEV3NP5SPD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T13:08:01.7793835+03:00 0HMUEV3NP5SPD:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1901.0256ms (791a596a)
+2023-10-17T13:08:02.4008406+03:00 0HMUEV3NP5SPE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T13:08:02.4097676+03:00 0HMUEV3NP5SPD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T13:08:02.4247261+03:00 0HMUEV3NP5SPD:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 14.9467ms (791a596a)
+2023-10-17T13:08:02.5455280+03:00 0HMUEV3NP5SPE:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 144.8518ms (791a596a)
+2023-10-17T13:08:02.8175443+03:00 0HMUEV3NP5SPE:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T13:08:03.4463890+03:00 0HMUEV3NP5SPE:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 628.9006ms (791a596a)
+2023-10-17T14:05:43.4052093+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T14:05:45.6580805+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T14:05:45.6917804+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T14:05:45.6985113+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T14:05:45.7032133+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T14:05:50.4333384+03:00 0HMUF041KP9FG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T14:05:57.7761492+03:00 0HMUF041KP9FG:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 7525.8356ms (791a596a)
+2023-10-17T14:05:58.7944673+03:00 0HMUF041KP9FI:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T14:05:58.8133024+03:00 0HMUF041KP9FJ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T14:05:58.8612131+03:00 0HMUF041KP9FI:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 68.2739ms (791a596a)
+2023-10-17T14:05:59.8099348+03:00 0HMUF041KP9FJ:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 996.6161ms (791a596a)
+2023-10-17T14:06:00.0136774+03:00 0HMUF041KP9FJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T14:06:02.1658924+03:00 0HMUF041KP9FJ:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2152.2092ms (791a596a)
+2023-10-17T14:06:06.5290106+03:00 0HMUF041KP9FJ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v2/swagger.json - - (ca22a1cb)
+2023-10-17T14:06:06.5304590+03:00 0HMUF041KP9FJ:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 1.4444ms (791a596a)
+2023-10-17T14:06:15.8415601+03:00 0HMUF041KP9FK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T14:06:15.8523277+03:00 0HMUF041KP9FK:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.5143ms (791a596a)
+2023-10-17T14:07:30.0220054+03:00 0HMUF041KP9FL:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/RegisterUser application/json-patch+json 202 (ca22a1cb)
+2023-10-17T14:07:30.1027929+03:00 0HMUF041KP9FL:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:07:30.1028719+03:00 0HMUF041KP9FL:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:07:30.2056798+03:00 0HMUF041KP9FL:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:07:30.2516074+03:00 0HMUF041KP9FL:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:07:30.2567611+03:00 0HMUF041KP9FL:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:07:30.2593614+03:00 0HMUF041KP9FL:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:07:30.2694714+03:00 0HMUF041KP9FL:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:07:30.2720722+03:00 0HMUF041KP9FL:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:07:30.2742787+03:00 0HMUF041KP9FL:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:07:30.5023909+03:00 0HMUF041KP9FL:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)"' (500cc934)
+2023-10-17T14:07:30.5721302+03:00 0HMUF041KP9FL:00000002 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Entities.DataTransferObjects.UserForRegistrationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:07:33.1255727+03:00 0HMUF041KP9FL:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:07:33.1256884+03:00 0HMUF041KP9FL:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:07:35.5374862+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("202"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:07:35.6970169+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:07:36.1841155+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = DateTime2), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [RefreshToken], [RefreshTokenExpiryTime], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);" (0723d8ff)
+2023-10-17T14:07:36.2574841+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2023-10-17T14:07:36.3433458+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1" (0723d8ff)
+2023-10-17T14:07:36.3653767+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2023-10-17T14:07:36.4074251+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:07:36.4292802+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:07:36.5288410+03:00 0HMUF041KP9FL:00000002 [INF] Executed DbCommand ("14"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p20='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p21='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = DateTime2), @p17='?' (Size = 4000), @p18='?' (DbType = Boolean), @p19='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [FirstName] = @p6, [LastName] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [RefreshToken] = @p15, [RefreshTokenExpiryTime] = @p16, [SecurityStamp] = @p17, [TwoFactorEnabled] = @p18, [UserName] = @p19
+OUTPUT 1
+WHERE [Id] = @p20 AND [ConcurrencyStamp] = @p21;" (0723d8ff)
+2023-10-17T14:07:36.6085204+03:00 0HMUF041KP9FL:00000002 [INF] Executing StatusCodeResult, setting HTTP status code 201 (3fe03d2f)
+2023-10-17T14:07:36.6258366+03:00 0HMUF041KP9FL:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)" in 6038.9675ms (afa2e885)
+2023-10-17T14:07:36.6280891+03:00 0HMUF041KP9FL:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)"' (99874f2b)
+2023-10-17T14:07:36.6489681+03:00 0HMUF041KP9FL:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:07:36.6537408+03:00 0HMUF041KP9FL:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:09:06 GMT. Cache-Control: public,max-age=90. (2a2dce87)
+2023-10-17T14:07:36.6703178+03:00 0HMUF041KP9FL:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:07:36.6912507+03:00 0HMUF041KP9FL:00000002 [INF] Validation headers generated. ETag: Strong, "1841D6EAB61A145F325B85006F238D06". Last-Modified: Tue, 17 Oct 2023 11:07:36 GMT (8ccc425a)
+2023-10-17T14:07:36.6954304+03:00 0HMUF041KP9FL:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:07:36.6991036+03:00 0HMUF041KP9FL:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:07:36.7413341+03:00 0HMUF041KP9FL:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/RegisterUser application/json-patch+json 202 - 201 0 - 6719.3422ms (791a596a)
+2023-10-17T14:07:56.5418445+03:00 0HMUF041KP9FM:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 (ca22a1cb)
+2023-10-17T14:07:56.5455539+03:00 0HMUF041KP9FM:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:07:56.5484058+03:00 0HMUF041KP9FM:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:07:56.5507448+03:00 0HMUF041KP9FM:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:07:56.5535782+03:00 0HMUF041KP9FM:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:07:56.5576895+03:00 0HMUF041KP9FM:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:07:56.5612492+03:00 0HMUF041KP9FM:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:07:56.5649754+03:00 0HMUF041KP9FM:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:07:56.5654809+03:00 0HMUF041KP9FM:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (500cc934)
+2023-10-17T14:07:56.5685575+03:00 0HMUF041KP9FM:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Entities.DataTransferObjects.UserForAuthenticationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:07:56.6576920+03:00 0HMUF041KP9FM:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:07:56.8062872+03:00 0HMUF041KP9FM:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2023-10-17T14:07:56.8255912+03:00 0HMUF041KP9FM:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:07:56.8328654+03:00 0HMUF041KP9FM:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:07:56.8436877+03:00 0HMUF041KP9FM:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;" (0723d8ff)
+2023-10-17T14:07:57.0620916+03:00 0HMUF041KP9FM:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObjects.TokenDto"'. (605b4265)
+2023-10-17T14:07:57.1479229+03:00 0HMUF041KP9FM:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.Authenticate (Presentation)" in 579.2246ms (afa2e885)
+2023-10-17T14:07:57.1480149+03:00 0HMUF041KP9FM:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (99874f2b)
+2023-10-17T14:07:57.1512350+03:00 0HMUF041KP9FM:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:07:57.1543862+03:00 0HMUF041KP9FM:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:09:27 GMT. Cache-Control: public,max-age=90. (1583c203)
+2023-10-17T14:07:57.1574322+03:00 0HMUF041KP9FM:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:07:57.1619352+03:00 0HMUF041KP9FM:00000002 [INF] Validation headers generated. ETag: Strong, "FD01587E4C0A707D4AD2A3134C93169B". Last-Modified: Tue, 17 Oct 2023 11:07:57 GMT (d87029d3)
+2023-10-17T14:07:57.1651742+03:00 0HMUF041KP9FM:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:07:57.1682118+03:00 0HMUF041KP9FM:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:07:57.1694053+03:00 0HMUF041KP9FM:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 - 200 439 application/json;+charset=utf-8 627.4939ms (791a596a)
+2023-10-17T14:08:52.0980060+03:00 0HMUF041KP9FN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T14:08:52.1030815+03:00 0HMUF041KP9FN:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:08:52.1114579+03:00 0HMUF041KP9FN:00000002 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:08:52.1157976+03:00 0HMUF041KP9FN:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:08:52.1195798+03:00 0HMUF041KP9FN:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:08:52.1216915+03:00 0HMUF041KP9FN:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:08:52.1235079+03:00 0HMUF041KP9FN:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:08:52.1327915+03:00 0HMUF041KP9FN:00000002 [INF] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user." (92d7f7d3)
+2023-10-17T14:08:52.1409278+03:00 0HMUF041KP9FN:00000002 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2023-10-17T14:08:52.1441132+03:00 0HMUF041KP9FN:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:08:52.1477589+03:00 0HMUF041KP9FN:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:10:22 GMT. Cache-Control: public,max-age=90. (f0c4a0f9)
+2023-10-17T14:08:52.1499618+03:00 0HMUF041KP9FN:00000002 [INF] Not generating Validation headers as the response status code does not indicate success. (2130aaa7)
+2023-10-17T14:08:52.1520403+03:00 0HMUF041KP9FN:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:08:52.1540283+03:00 0HMUF041KP9FN:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:08:52.1541937+03:00 0HMUF041KP9FN:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - - 401 0 - 56.2002ms (791a596a)
+2023-10-17T14:08:58.6811443+03:00 0HMUF041KP9FN:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T14:08:58.6955687+03:00 0HMUF041KP9FN:00000003 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:08:58.6990050+03:00 0HMUF041KP9FN:00000003 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:08:58.7016860+03:00 0HMUF041KP9FN:00000003 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:08:58.7033372+03:00 0HMUF041KP9FN:00000003 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:08:58.7049585+03:00 0HMUF041KP9FN:00000003 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:08:58.7065968+03:00 0HMUF041KP9FN:00000003 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:08:58.7070317+03:00 0HMUF041KP9FN:00000003 [INF] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user." (92d7f7d3)
+2023-10-17T14:08:58.7071361+03:00 0HMUF041KP9FN:00000003 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2023-10-17T14:08:58.7087890+03:00 0HMUF041KP9FN:00000003 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:08:58.7109697+03:00 0HMUF041KP9FN:00000003 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:10:28 GMT. Cache-Control: public,max-age=90. (f3fb2f41)
+2023-10-17T14:08:58.7146703+03:00 0HMUF041KP9FN:00000003 [INF] Not generating Validation headers as the response status code does not indicate success. (2130aaa7)
+2023-10-17T14:08:58.7164472+03:00 0HMUF041KP9FN:00000003 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:08:58.7181565+03:00 0HMUF041KP9FN:00000003 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:08:58.7183495+03:00 0HMUF041KP9FN:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - - 401 0 - 37.3031ms (791a596a)
+2023-10-17T14:10:00.0025452+03:00 0HMUF041KP9FO:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=3 - - (ca22a1cb)
+2023-10-17T14:10:00.0109374+03:00 0HMUF041KP9FO:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:10:00.0212328+03:00 0HMUF041KP9FO:00000002 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:10:00.0237269+03:00 0HMUF041KP9FO:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:10:00.0262070+03:00 0HMUF041KP9FO:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:10:00.0281938+03:00 0HMUF041KP9FO:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:10:00.0328716+03:00 0HMUF041KP9FO:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:10:00.0337340+03:00 0HMUF041KP9FO:00000002 [INF] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user." (92d7f7d3)
+2023-10-17T14:10:00.0338902+03:00 0HMUF041KP9FO:00000002 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2023-10-17T14:10:00.0363758+03:00 0HMUF041KP9FO:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:10:00.0393317+03:00 0HMUF041KP9FO:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:11:30 GMT. Cache-Control: public,max-age=90. (b1e46c7c)
+2023-10-17T14:10:00.0421857+03:00 0HMUF041KP9FO:00000002 [INF] Not generating Validation headers as the response status code does not indicate success. (2130aaa7)
+2023-10-17T14:10:00.0441540+03:00 0HMUF041KP9FO:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:10:00.0475802+03:00 0HMUF041KP9FO:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:10:00.0479726+03:00 0HMUF041KP9FO:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=3 - - - 401 0 - 45.5079ms (791a596a)
+2023-10-17T14:11:18.4872193+03:00 0HMUF041KP9FP:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/RegisterUser application/json-patch+json 197 (ca22a1cb)
+2023-10-17T14:11:18.4876068+03:00 0HMUF041KP9FP:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:11:18.4906636+03:00 0HMUF041KP9FP:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:11:18.4946098+03:00 0HMUF041KP9FP:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:11:18.5034806+03:00 0HMUF041KP9FP:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:11:18.5061795+03:00 0HMUF041KP9FP:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:11:18.5106103+03:00 0HMUF041KP9FP:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:11:18.5139509+03:00 0HMUF041KP9FP:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:11:18.5141131+03:00 0HMUF041KP9FP:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)"' (500cc934)
+2023-10-17T14:11:18.5150702+03:00 0HMUF041KP9FP:00000002 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Entities.DataTransferObjects.UserForRegistrationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:11:18.5600775+03:00 0HMUF041KP9FP:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:11:18.5925792+03:00 0HMUF041KP9FP:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:11:18.6043166+03:00 0HMUF041KP9FP:00000002 [WRN] User validation failed: "DuplicateEmail". (70e51dd0)
+2023-10-17T14:11:18.6043812+03:00 0HMUF041KP9FP:00000002 [WRN] User validation failed: "DuplicateEmail". (70e51dd0)
+2023-10-17T14:11:18.6065413+03:00 0HMUF041KP9FP:00000002 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'. (605b4265)
+2023-10-17T14:11:18.6206819+03:00 0HMUF041KP9FP:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)" in 105.5246ms (afa2e885)
+2023-10-17T14:11:18.6207543+03:00 0HMUF041KP9FP:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)"' (99874f2b)
+2023-10-17T14:11:18.6231919+03:00 0HMUF041KP9FP:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:11:18.6258942+03:00 0HMUF041KP9FP:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:12:48 GMT. Cache-Control: public,max-age=90. (106cb041)
+2023-10-17T14:11:18.6293206+03:00 0HMUF041KP9FP:00000002 [INF] Not generating Validation headers as the response status code does not indicate success. (2130aaa7)
+2023-10-17T14:11:18.6317644+03:00 0HMUF041KP9FP:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:11:18.6339883+03:00 0HMUF041KP9FP:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:11:18.6343980+03:00 0HMUF041KP9FP:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/RegisterUser application/json-patch+json 197 - 400 72 application/json;+charset=utf-8 147.1660ms (791a596a)
+2023-10-17T14:11:40.2265626+03:00 0HMUF041KP9FQ:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/RegisterUser application/json-patch+json 195 (ca22a1cb)
+2023-10-17T14:11:40.2268472+03:00 0HMUF041KP9FQ:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:11:40.2289726+03:00 0HMUF041KP9FQ:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:11:40.2402426+03:00 0HMUF041KP9FQ:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:11:40.2432727+03:00 0HMUF041KP9FQ:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:11:40.2528677+03:00 0HMUF041KP9FQ:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:11:40.2581216+03:00 0HMUF041KP9FQ:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:11:40.2615183+03:00 0HMUF041KP9FQ:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:11:40.2617436+03:00 0HMUF041KP9FQ:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)"' (500cc934)
+2023-10-17T14:11:40.2619194+03:00 0HMUF041KP9FQ:00000002 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Entities.DataTransferObjects.UserForRegistrationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:11:40.2813155+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:11:40.2912827+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:11:40.2983865+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = DateTime2), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [RefreshToken], [RefreshTokenExpiryTime], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);" (0723d8ff)
+2023-10-17T14:11:40.3034952+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2023-10-17T14:11:40.3106324+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1" (0723d8ff)
+2023-10-17T14:11:40.3150139+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2023-10-17T14:11:40.3216038+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:11:40.3269585+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:11:40.3406574+03:00 0HMUF041KP9FQ:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p20='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p21='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = DateTime2), @p17='?' (Size = 4000), @p18='?' (DbType = Boolean), @p19='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [FirstName] = @p6, [LastName] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [RefreshToken] = @p15, [RefreshTokenExpiryTime] = @p16, [SecurityStamp] = @p17, [TwoFactorEnabled] = @p18, [UserName] = @p19
+OUTPUT 1
+WHERE [Id] = @p20 AND [ConcurrencyStamp] = @p21;" (0723d8ff)
+2023-10-17T14:11:40.3417110+03:00 0HMUF041KP9FQ:00000002 [INF] Executing StatusCodeResult, setting HTTP status code 201 (3fe03d2f)
+2023-10-17T14:11:40.3418181+03:00 0HMUF041KP9FQ:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)" in 79.783ms (afa2e885)
+2023-10-17T14:11:40.3418745+03:00 0HMUF041KP9FQ:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)"' (99874f2b)
+2023-10-17T14:11:40.3438466+03:00 0HMUF041KP9FQ:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:11:40.3462298+03:00 0HMUF041KP9FQ:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:13:10 GMT. Cache-Control: public,max-age=90. (5fca608d)
+2023-10-17T14:11:40.3484140+03:00 0HMUF041KP9FQ:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:11:40.3504811+03:00 0HMUF041KP9FQ:00000002 [INF] Validation headers generated. ETag: Strong, "1841D6EAB61A145F325B85006F238D06". Last-Modified: Tue, 17 Oct 2023 11:11:40 GMT (281c9f35)
+2023-10-17T14:11:40.3530113+03:00 0HMUF041KP9FQ:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:11:40.3559091+03:00 0HMUF041KP9FQ:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:11:40.3563496+03:00 0HMUF041KP9FQ:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/RegisterUser application/json-patch+json 195 - 201 0 - 129.7164ms (791a596a)
+2023-10-17T14:11:58.6887595+03:00 0HMUF041KP9FR:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 49 (ca22a1cb)
+2023-10-17T14:11:58.6890453+03:00 0HMUF041KP9FR:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:11:58.6920906+03:00 0HMUF041KP9FR:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:11:58.6954529+03:00 0HMUF041KP9FR:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:11:58.6986581+03:00 0HMUF041KP9FR:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:11:58.7027153+03:00 0HMUF041KP9FR:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:11:58.7061626+03:00 0HMUF041KP9FR:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:11:58.7108626+03:00 0HMUF041KP9FR:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:11:58.7112005+03:00 0HMUF041KP9FR:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (500cc934)
+2023-10-17T14:11:58.7114073+03:00 0HMUF041KP9FR:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Entities.DataTransferObjects.UserForAuthenticationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:11:58.7275662+03:00 0HMUF041KP9FR:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:11:58.7496366+03:00 0HMUF041KP9FR:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2023-10-17T14:11:58.7564058+03:00 0HMUF041KP9FR:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:11:58.7622988+03:00 0HMUF041KP9FR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:11:58.7716493+03:00 0HMUF041KP9FR:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;" (0723d8ff)
+2023-10-17T14:11:58.7724184+03:00 0HMUF041KP9FR:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObjects.TokenDto"'. (605b4265)
+2023-10-17T14:11:58.7726205+03:00 0HMUF041KP9FR:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.Authenticate (Presentation)" in 61.0727ms (afa2e885)
+2023-10-17T14:11:58.7726811+03:00 0HMUF041KP9FR:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (99874f2b)
+2023-10-17T14:11:58.7754349+03:00 0HMUF041KP9FR:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:11:58.7783074+03:00 0HMUF041KP9FR:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:13:28 GMT. Cache-Control: public,max-age=90. (5fd85d53)
+2023-10-17T14:11:58.7810728+03:00 0HMUF041KP9FR:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:11:58.7845146+03:00 0HMUF041KP9FR:00000002 [INF] Validation headers generated. ETag: Strong, "D9BE53C482C2CD7A1A66804E99648196". Last-Modified: Tue, 17 Oct 2023 11:11:58 GMT (8066706b)
+2023-10-17T14:11:58.7875558+03:00 0HMUF041KP9FR:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:11:58.7903991+03:00 0HMUF041KP9FR:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:11:58.7908203+03:00 0HMUF041KP9FR:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 49 - 200 436 application/json;+charset=utf-8 102.1010ms (791a596a)
+2023-10-17T14:12:56.5291817+03:00 0HMUF041KP9FS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=3 - - (ca22a1cb)
+2023-10-17T14:12:56.5318900+03:00 0HMUF041KP9FS:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:12:56.5426300+03:00 0HMUF041KP9FS:00000002 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:12:56.5486660+03:00 0HMUF041KP9FS:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:12:56.5537627+03:00 0HMUF041KP9FS:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:12:56.5576717+03:00 0HMUF041KP9FS:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:12:56.5603321+03:00 0HMUF041KP9FS:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:12:56.6801323+03:00 0HMUF041KP9FS:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-17T14:12:56.6897475+03:00 0HMUF041KP9FS:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:12:58.8801403+03:00 0HMUF041KP9FS:00000002 [INF] Executed DbCommand ("15"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:12:58.9234953+03:00 0HMUF041KP9FS:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:12:58.9306045+03:00 0HMUF041KP9FS:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 2240.7568ms (afa2e885)
+2023-10-17T14:12:58.9306862+03:00 0HMUF041KP9FS:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-17T14:12:58.9353279+03:00 0HMUF041KP9FS:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:12:58.9384530+03:00 0HMUF041KP9FS:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:14:28 GMT. Cache-Control: public,max-age=90. (b1a13c65)
+2023-10-17T14:12:58.9411648+03:00 0HMUF041KP9FS:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:12:58.9440299+03:00 0HMUF041KP9FS:00000002 [INF] Validation headers generated. ETag: Strong, "C829884E20DDF3A369CB0BCD0F7020F9". Last-Modified: Tue, 17 Oct 2023 11:12:58 GMT (cadf971c)
+2023-10-17T14:12:58.9465905+03:00 0HMUF041KP9FS:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:12:58.9492736+03:00 0HMUF041KP9FS:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:12:58.9497190+03:00 0HMUF041KP9FS:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=3 - - - 200 137 application/json;+charset=utf-8 2420.5012ms (791a596a)
+2023-10-17T14:13:04.4583777+03:00 0HMUF041KP9FS:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T14:13:04.4609202+03:00 0HMUF041KP9FS:00000003 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:13:04.4727403+03:00 0HMUF041KP9FS:00000003 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:13:04.4765135+03:00 0HMUF041KP9FS:00000003 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:13:04.4857297+03:00 0HMUF041KP9FS:00000003 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:13:04.4895767+03:00 0HMUF041KP9FS:00000003 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:13:04.4918981+03:00 0HMUF041KP9FS:00000003 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:13:04.4923905+03:00 0HMUF041KP9FS:00000003 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (500cc934)
+2023-10-17T14:13:04.4943361+03:00 0HMUF041KP9FS:00000003 [INF] Route matched with "{action = \"GetAllBooksWithDetails\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksWithDetailsAsync()" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:13:04.5417678+03:00 0HMUF041KP9FS:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title], [c].[CategoryId], [c].[CategoryName]
+FROM [Books] AS [b]
+INNER JOIN [Categories] AS [c] ON [b].[CategoryId] = [c].[CategoryId]
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:13:04.5817910+03:00 0HMUF041KP9FS:00000003 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Book, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:13:04.5935510+03:00 0HMUF041KP9FS:00000003 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)" in 99.1455ms (afa2e885)
+2023-10-17T14:13:04.5942199+03:00 0HMUF041KP9FS:00000003 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (99874f2b)
+2023-10-17T14:13:04.6823615+03:00 0HMUF041KP9FS:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected with type 'Entities.Models.Book'. Path '[0].category.books'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-17T14:13:04.6824139+03:00 0HMUF041KP9FS:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected with type 'Entities.Models.Book'. Path '[0].category.books'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-17T14:13:04.6927453+03:00 0HMUF041KP9FS:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - - 500 - application/json 234.2911ms (791a596a)
+2023-10-17T14:16:29.7203941+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T14:16:30.1627424+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T14:16:30.1925318+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T14:16:30.2008162+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T14:16:30.2051607+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T14:16:31.0358933+03:00 0HMUF0A1JU8L9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T14:16:32.8307561+03:00 0HMUF0A1JU8L9:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1818.6726ms (791a596a)
+2023-10-17T14:16:33.6950484+03:00 0HMUF0A1JU8L9:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T14:16:33.7010985+03:00 0HMUF0A1JU8L8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T14:16:33.7267002+03:00 0HMUF0A1JU8L9:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 31.7184ms (791a596a)
+2023-10-17T14:16:33.8710819+03:00 0HMUF0A1JU8L8:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 169.4974ms (791a596a)
+2023-10-17T14:16:34.1174550+03:00 0HMUF0A1JU8L8:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T14:16:34.9337565+03:00 0HMUF0A1JU8L8:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 816.2057ms (791a596a)
+2023-10-17T14:16:54.4090172+03:00 0HMUF0A1JU8LA:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 49 (ca22a1cb)
+2023-10-17T14:16:54.4606687+03:00 0HMUF0A1JU8LA:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:16:54.4608410+03:00 0HMUF0A1JU8LA:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:16:54.5503261+03:00 0HMUF0A1JU8LA:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:16:54.5922452+03:00 0HMUF0A1JU8LA:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:16:54.5970547+03:00 0HMUF0A1JU8LA:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:16:54.5991050+03:00 0HMUF0A1JU8LA:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:16:54.6069375+03:00 0HMUF0A1JU8LA:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:16:54.6086916+03:00 0HMUF0A1JU8LA:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:16:54.6112643+03:00 0HMUF0A1JU8LA:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:16:54.7596683+03:00 0HMUF0A1JU8LA:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (500cc934)
+2023-10-17T14:16:54.8127302+03:00 0HMUF0A1JU8LA:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Entities.DataTransferObjects.UserForAuthenticationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:16:57.2080529+03:00 0HMUF0A1JU8LA:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:16:57.2081514+03:00 0HMUF0A1JU8LA:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:16:59.4158246+03:00 0HMUF0A1JU8LA:00000002 [INF] Executed DbCommand ("164"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:16:59.8770193+03:00 0HMUF0A1JU8LA:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2023-10-17T14:16:59.9383305+03:00 0HMUF0A1JU8LA:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:16:59.9814275+03:00 0HMUF0A1JU8LA:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:17:00.2597269+03:00 0HMUF0A1JU8LA:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;" (0723d8ff)
+2023-10-17T14:17:00.4968959+03:00 0HMUF0A1JU8LA:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObjects.TokenDto"'. (605b4265)
+2023-10-17T14:17:00.5750607+03:00 0HMUF0A1JU8LA:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.Authenticate (Presentation)" in 5753.7266ms (afa2e885)
+2023-10-17T14:17:00.5768536+03:00 0HMUF0A1JU8LA:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (99874f2b)
+2023-10-17T14:17:00.5904611+03:00 0HMUF0A1JU8LA:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:17:00.5945794+03:00 0HMUF0A1JU8LA:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:18:30 GMT. Cache-Control: public,max-age=90. (76d7e315)
+2023-10-17T14:17:00.6071971+03:00 0HMUF0A1JU8LA:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:17:00.6263622+03:00 0HMUF0A1JU8LA:00000002 [INF] Validation headers generated. ETag: Strong, "E9336B69DD2AEED63B1EB94EDE6BC659". Last-Modified: Tue, 17 Oct 2023 11:17:00 GMT (19b7a255)
+2023-10-17T14:17:00.6302778+03:00 0HMUF0A1JU8LA:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:17:00.6329964+03:00 0HMUF0A1JU8LA:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:17:00.6706009+03:00 0HMUF0A1JU8LA:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 49 - 200 436 application/json;+charset=utf-8 6261.6006ms (791a596a)
+2023-10-17T14:17:38.2896817+03:00 0HMUF0A1JU8LB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=3 - - (ca22a1cb)
+2023-10-17T14:17:38.3068027+03:00 0HMUF0A1JU8LB:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:17:38.3241613+03:00 0HMUF0A1JU8LB:00000002 [INF] No saved response found in store. (98cc509c)
+2023-10-17T14:17:38.3258079+03:00 0HMUF0A1JU8LB:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:17:38.3274403+03:00 0HMUF0A1JU8LB:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:17:38.3291144+03:00 0HMUF0A1JU8LB:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:17:38.3307161+03:00 0HMUF0A1JU8LB:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:17:38.4416517+03:00 0HMUF0A1JU8LB:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-17T14:17:38.4503653+03:00 0HMUF0A1JU8LB:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:17:40.3062502+03:00 0HMUF0A1JU8LB:00000002 [INF] Executed DbCommand ("9"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:17:40.3626396+03:00 0HMUF0A1JU8LB:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:17:40.3952174+03:00 0HMUF0A1JU8LB:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 1944.6448ms (afa2e885)
+2023-10-17T14:17:40.3952933+03:00 0HMUF0A1JU8LB:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-17T14:17:40.3997365+03:00 0HMUF0A1JU8LB:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:17:40.4031302+03:00 0HMUF0A1JU8LB:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:19:10 GMT. Cache-Control: public,max-age=90. (6f0967a8)
+2023-10-17T14:17:40.4064905+03:00 0HMUF0A1JU8LB:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:17:40.4100660+03:00 0HMUF0A1JU8LB:00000002 [INF] Validation headers generated. ETag: Strong, "C829884E20DDF3A369CB0BCD0F7020F9". Last-Modified: Tue, 17 Oct 2023 11:17:40 GMT (6087aade)
+2023-10-17T14:17:40.4128268+03:00 0HMUF0A1JU8LB:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:17:40.4165829+03:00 0HMUF0A1JU8LB:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:17:40.4174953+03:00 0HMUF0A1JU8LB:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=3 - - - 200 137 application/json;+charset=utf-8 2127.6970ms (791a596a)
+2023-10-17T14:17:47.2840439+03:00 0HMUF0A1JU8LC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T14:17:47.2914060+03:00 0HMUF0A1JU8LC:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:17:47.2960468+03:00 0HMUF0A1JU8LC:00000002 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:17:47.2997071+03:00 0HMUF0A1JU8LC:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:17:47.3034954+03:00 0HMUF0A1JU8LC:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:17:47.3055170+03:00 0HMUF0A1JU8LC:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:17:47.3076150+03:00 0HMUF0A1JU8LC:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:17:47.3103138+03:00 0HMUF0A1JU8LC:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (500cc934)
+2023-10-17T14:17:47.3128782+03:00 0HMUF0A1JU8LC:00000002 [INF] Route matched with "{action = \"GetAllBooksWithDetails\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksWithDetailsAsync()" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:17:47.4139813+03:00 0HMUF0A1JU8LC:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title], [c].[CategoryId], [c].[CategoryName]
+FROM [Books] AS [b]
+INNER JOIN [Categories] AS [c] ON [b].[CategoryId] = [c].[CategoryId]
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:17:47.4986492+03:00 0HMUF0A1JU8LC:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Book, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:19:04.7060910+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T14:19:04.9356260+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T14:19:04.9454574+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T14:19:04.9485629+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T14:19:04.9506673+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T14:19:05.6228286+03:00 0HMUF0BFPMQ1U:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T14:19:06.6412985+03:00 0HMUF0BFPMQ1U:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1032.9659ms (791a596a)
+2023-10-17T14:19:07.1772877+03:00 0HMUF0BFPMQ1V:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T14:19:07.1913687+03:00 0HMUF0BFPMQ1U:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T14:19:07.2097977+03:00 0HMUF0BFPMQ1U:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 18.2625ms (791a596a)
+2023-10-17T14:19:07.2724878+03:00 0HMUF0BFPMQ1V:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 95.4993ms (791a596a)
+2023-10-17T14:19:07.4588119+03:00 0HMUF0BFPMQ1V:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T14:19:07.9183400+03:00 0HMUF0BFPMQ1V:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 459.5069ms (791a596a)
+2023-10-17T14:19:26.7995211+03:00 0HMUF0BFPMQ20:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 (ca22a1cb)
+2023-10-17T14:19:26.8478854+03:00 0HMUF0BFPMQ20:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:19:26.8479497+03:00 0HMUF0BFPMQ20:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:19:26.9170665+03:00 0HMUF0BFPMQ20:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:19:26.9475733+03:00 0HMUF0BFPMQ20:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:19:26.9500229+03:00 0HMUF0BFPMQ20:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:19:26.9519758+03:00 0HMUF0BFPMQ20:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:19:26.9599921+03:00 0HMUF0BFPMQ20:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:19:26.9620177+03:00 0HMUF0BFPMQ20:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:19:26.9644337+03:00 0HMUF0BFPMQ20:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:19:27.0843914+03:00 0HMUF0BFPMQ20:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (500cc934)
+2023-10-17T14:19:27.1314223+03:00 0HMUF0BFPMQ20:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Entities.DataTransferObjects.UserForAuthenticationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:19:29.2233399+03:00 0HMUF0BFPMQ20:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:19:29.2235713+03:00 0HMUF0BFPMQ20:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:19:31.1562015+03:00 0HMUF0BFPMQ20:00000002 [INF] Executed DbCommand ("172"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:19:31.6785402+03:00 0HMUF0BFPMQ20:00000002 [INF] Executed DbCommand ("9"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2023-10-17T14:19:31.7387894+03:00 0HMUF0BFPMQ20:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:19:31.7864576+03:00 0HMUF0BFPMQ20:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:19:32.0524339+03:00 0HMUF0BFPMQ20:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;" (0723d8ff)
+2023-10-17T14:19:32.2598753+03:00 0HMUF0BFPMQ20:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObjects.TokenDto"'. (605b4265)
+2023-10-17T14:19:32.3290251+03:00 0HMUF0BFPMQ20:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.Authenticate (Presentation)" in 5189.3511ms (afa2e885)
+2023-10-17T14:19:32.3302576+03:00 0HMUF0BFPMQ20:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (99874f2b)
+2023-10-17T14:19:32.3434337+03:00 0HMUF0BFPMQ20:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:19:32.3467081+03:00 0HMUF0BFPMQ20:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:21:02 GMT. Cache-Control: public,max-age=90. (d445459b)
+2023-10-17T14:19:32.3580932+03:00 0HMUF0BFPMQ20:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:19:32.3807971+03:00 0HMUF0BFPMQ20:00000002 [INF] Validation headers generated. ETag: Strong, "D6F31C22BBD89D3A7730974B43B9C00C". Last-Modified: Tue, 17 Oct 2023 11:19:32 GMT (6a05598b)
+2023-10-17T14:19:32.3851050+03:00 0HMUF0BFPMQ20:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:19:32.3895247+03:00 0HMUF0BFPMQ20:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:19:32.4317478+03:00 0HMUF0BFPMQ20:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 - 200 439 application/json;+charset=utf-8 5632.2469ms (791a596a)
+2023-10-17T14:20:14.1325614+03:00 0HMUF0BFPMQ21:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T14:20:14.1409735+03:00 0HMUF0BFPMQ21:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:20:14.1504160+03:00 0HMUF0BFPMQ21:00000002 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:20:14.1532104+03:00 0HMUF0BFPMQ21:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:20:14.1558940+03:00 0HMUF0BFPMQ21:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:20:14.1581741+03:00 0HMUF0BFPMQ21:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:20:14.1601749+03:00 0HMUF0BFPMQ21:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:20:14.3048442+03:00 0HMUF0BFPMQ21:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (500cc934)
+2023-10-17T14:20:14.3078141+03:00 0HMUF0BFPMQ21:00000002 [INF] Route matched with "{action = \"GetAllBooksWithDetails\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksWithDetailsAsync()" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:20:14.7024073+03:00 0HMUF0BFPMQ21:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title], [c].[CategoryId], [c].[CategoryName]
+FROM [Books] AS [b]
+INNER JOIN [Categories] AS [c] ON [b].[CategoryId] = [c].[CategoryId]
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:20:14.7584994+03:00 0HMUF0BFPMQ21:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Book, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:20:14.7778253+03:00 0HMUF0BFPMQ21:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)" in 469.8913ms (afa2e885)
+2023-10-17T14:20:14.7779539+03:00 0HMUF0BFPMQ21:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (99874f2b)
+2023-10-17T14:20:14.7832196+03:00 0HMUF0BFPMQ21:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:20:14.7867409+03:00 0HMUF0BFPMQ21:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:21:44 GMT. Cache-Control: public,max-age=90. (6d682134)
+2023-10-17T14:20:14.7896484+03:00 0HMUF0BFPMQ21:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:20:14.7928706+03:00 0HMUF0BFPMQ21:00000002 [INF] Validation headers generated. ETag: Strong, "C8CCDB34F9DD90F13D3FC35312401DE1". Last-Modified: Tue, 17 Oct 2023 11:20:14 GMT (50823537)
+2023-10-17T14:20:14.7958444+03:00 0HMUF0BFPMQ21:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:20:14.7985966+03:00 0HMUF0BFPMQ21:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:20:14.7991093+03:00 0HMUF0BFPMQ21:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - - 200 514 application/json;+charset=utf-8 666.6132ms (791a596a)
+2023-10-17T14:22:40.0595645+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T14:22:40.5079378+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T14:22:40.5340757+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T14:22:40.5404368+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T14:22:40.5447531+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T14:22:41.4608573+03:00 0HMUF0DG0423G:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T14:22:43.0527062+03:00 0HMUF0DG0423G:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1604.0478ms (791a596a)
+2023-10-17T14:22:43.7487411+03:00 0HMUF0DG0423H:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T14:22:43.7701278+03:00 0HMUF0DG0423G:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T14:22:43.8003804+03:00 0HMUF0DG0423G:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 30.0721ms (791a596a)
+2023-10-17T14:22:43.8755874+03:00 0HMUF0DG0423H:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.8954ms (791a596a)
+2023-10-17T14:22:44.0350984+03:00 0HMUF0DG0423H:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T14:22:44.7132249+03:00 0HMUF0DG0423H:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 677.9810ms (791a596a)
+2023-10-17T14:23:02.3934522+03:00 0HMUF0DG0423I:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 (ca22a1cb)
+2023-10-17T14:23:02.4500477+03:00 0HMUF0DG0423I:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:23:02.4501198+03:00 0HMUF0DG0423I:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:23:02.5602931+03:00 0HMUF0DG0423I:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:23:02.6090001+03:00 0HMUF0DG0423I:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:23:02.6135672+03:00 0HMUF0DG0423I:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:23:02.6159887+03:00 0HMUF0DG0423I:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:23:02.6262712+03:00 0HMUF0DG0423I:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:23:02.6288506+03:00 0HMUF0DG0423I:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:23:02.6314476+03:00 0HMUF0DG0423I:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:23:02.7924099+03:00 0HMUF0DG0423I:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (500cc934)
+2023-10-17T14:23:02.8485627+03:00 0HMUF0DG0423I:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Entities.DataTransferObjects.UserForAuthenticationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:23:05.3060091+03:00 0HMUF0DG0423I:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:23:05.3061096+03:00 0HMUF0DG0423I:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:23:07.6022314+03:00 0HMUF0DG0423I:00000002 [INF] Executed DbCommand ("150"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:23:08.0161177+03:00 0HMUF0DG0423I:00000002 [INF] Executed DbCommand ("10"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2023-10-17T14:23:08.0725447+03:00 0HMUF0DG0423I:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:23:08.1154693+03:00 0HMUF0DG0423I:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:23:08.3754463+03:00 0HMUF0DG0423I:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;" (0723d8ff)
+2023-10-17T14:23:08.6125425+03:00 0HMUF0DG0423I:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObjects.TokenDto"'. (605b4265)
+2023-10-17T14:23:08.6933620+03:00 0HMUF0DG0423I:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.Authenticate (Presentation)" in 5832.1575ms (afa2e885)
+2023-10-17T14:23:08.6954876+03:00 0HMUF0DG0423I:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (99874f2b)
+2023-10-17T14:23:08.7117962+03:00 0HMUF0DG0423I:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:23:08.7147484+03:00 0HMUF0DG0423I:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:24:38 GMT. Cache-Control: public,max-age=90. (f2a72c5a)
+2023-10-17T14:23:08.7270311+03:00 0HMUF0DG0423I:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:23:08.7553638+03:00 0HMUF0DG0423I:00000002 [INF] Validation headers generated. ETag: Strong, "F1583B5D84124ABB114881083FD77C20". Last-Modified: Tue, 17 Oct 2023 11:23:08 GMT (9fc59d7b)
+2023-10-17T14:23:08.7596383+03:00 0HMUF0DG0423I:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:23:08.7621237+03:00 0HMUF0DG0423I:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:23:08.8013139+03:00 0HMUF0DG0423I:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 - 200 439 application/json;+charset=utf-8 6407.8875ms (791a596a)
+2023-10-17T14:23:41.4476606+03:00 0HMUF0DG0423J:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T14:23:41.4539009+03:00 0HMUF0DG0423J:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:23:41.4618370+03:00 0HMUF0DG0423J:00000002 [INF] No saved response found in store. (98cc509c)
+2023-10-17T14:23:41.4655409+03:00 0HMUF0DG0423J:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:23:41.4676466+03:00 0HMUF0DG0423J:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:23:41.4695489+03:00 0HMUF0DG0423J:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:23:41.4709929+03:00 0HMUF0DG0423J:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:23:41.5811732+03:00 0HMUF0DG0423J:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (500cc934)
+2023-10-17T14:23:41.5858252+03:00 0HMUF0DG0423J:00000002 [INF] Route matched with "{action = \"GetAllBooksWithDetails\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksWithDetailsAsync()" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:23:41.9656911+03:00 0HMUF0DG0423J:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title], [c].[CategoryId], [c].[CategoryName]
+FROM [Books] AS [b]
+INNER JOIN [Categories] AS [c] ON [b].[CategoryId] = [c].[CategoryId]
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:23:42.0173897+03:00 0HMUF0DG0423J:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Book, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:23:42.0346506+03:00 0HMUF0DG0423J:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)" in 448.6459ms (afa2e885)
+2023-10-17T14:23:42.0347210+03:00 0HMUF0DG0423J:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (99874f2b)
+2023-10-17T14:23:42.0390497+03:00 0HMUF0DG0423J:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:23:42.0423574+03:00 0HMUF0DG0423J:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:25:12 GMT. Cache-Control: public,max-age=90. (e09da62b)
+2023-10-17T14:23:42.0455588+03:00 0HMUF0DG0423J:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:23:42.0488828+03:00 0HMUF0DG0423J:00000002 [INF] Validation headers generated. ETag: Strong, "4B40E8372A11CF5914A244B3A3C52E73". Last-Modified: Tue, 17 Oct 2023 11:23:42 GMT (e67b9b40)
+2023-10-17T14:23:42.0520508+03:00 0HMUF0DG0423J:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:23:42.0557936+03:00 0HMUF0DG0423J:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:23:42.0563380+03:00 0HMUF0DG0423J:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - - 200 359 application/json;+charset=utf-8 608.6793ms (791a596a)
+2023-10-17T14:45:45.2605097+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T14:45:45.7353056+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T14:45:45.7590338+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T14:45:45.7643153+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T14:45:45.7678300+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T14:45:47.2050386+03:00 0HMUF0QCRNJC5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T14:45:48.7451224+03:00 0HMUF0QCRNJC5:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1559.6492ms (791a596a)
+2023-10-17T14:45:49.3822050+03:00 0HMUF0QCRNJC7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T14:45:49.3930215+03:00 0HMUF0QCRNJC5:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T14:45:49.4060973+03:00 0HMUF0QCRNJC5:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 12.9480ms (791a596a)
+2023-10-17T14:45:49.5022049+03:00 0HMUF0QCRNJC7:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 120.0693ms (791a596a)
+2023-10-17T14:45:49.7097332+03:00 0HMUF0QCRNJC7:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T14:45:50.1937439+03:00 0HMUF0QCRNJC7:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 483.9118ms (791a596a)
+2023-10-17T14:46:07.8846270+03:00 0HMUF0QCRNJC8:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 (ca22a1cb)
+2023-10-17T14:46:07.9368057+03:00 0HMUF0QCRNJC8:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:46:07.9369482+03:00 0HMUF0QCRNJC8:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:46:08.0279611+03:00 0HMUF0QCRNJC8:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:46:08.0722604+03:00 0HMUF0QCRNJC8:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:46:08.0772827+03:00 0HMUF0QCRNJC8:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:46:08.1048610+03:00 0HMUF0QCRNJC8:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:46:08.1172750+03:00 0HMUF0QCRNJC8:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:46:08.1194722+03:00 0HMUF0QCRNJC8:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:46:08.1218876+03:00 0HMUF0QCRNJC8:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:46:08.3185376+03:00 0HMUF0QCRNJC8:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (500cc934)
+2023-10-17T14:46:08.3788046+03:00 0HMUF0QCRNJC8:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Entities.DataTransferObjects.UserForAuthenticationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:46:10.8934904+03:00 0HMUF0QCRNJC8:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:46:10.8936048+03:00 0HMUF0QCRNJC8:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:46:13.2541594+03:00 0HMUF0QCRNJC8:00000002 [INF] Executed DbCommand ("248"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:46:13.7127910+03:00 0HMUF0QCRNJC8:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2023-10-17T14:46:13.7619898+03:00 0HMUF0QCRNJC8:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:46:13.7986041+03:00 0HMUF0QCRNJC8:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:46:14.1234491+03:00 0HMUF0QCRNJC8:00000002 [INF] Executed DbCommand ("35"ms) [Parameters=["@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;" (0723d8ff)
+2023-10-17T14:46:14.3386909+03:00 0HMUF0QCRNJC8:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObjects.TokenDto"'. (605b4265)
+2023-10-17T14:46:14.4127591+03:00 0HMUF0QCRNJC8:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.Authenticate (Presentation)" in 6024.9725ms (afa2e885)
+2023-10-17T14:46:14.4150206+03:00 0HMUF0QCRNJC8:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (99874f2b)
+2023-10-17T14:46:14.4297887+03:00 0HMUF0QCRNJC8:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:46:14.4338004+03:00 0HMUF0QCRNJC8:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:47:44 GMT. Cache-Control: public,max-age=90. (35a4c720)
+2023-10-17T14:46:14.4449338+03:00 0HMUF0QCRNJC8:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:46:14.4638641+03:00 0HMUF0QCRNJC8:00000002 [INF] Validation headers generated. ETag: Strong, "3B64239A51123D6001562EB48AAB76F4". Last-Modified: Tue, 17 Oct 2023 11:46:14 GMT (6f25e054)
+2023-10-17T14:46:14.4699029+03:00 0HMUF0QCRNJC8:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:46:14.4750106+03:00 0HMUF0QCRNJC8:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:46:14.5092105+03:00 0HMUF0QCRNJC8:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 - 200 439 application/json;+charset=utf-8 6624.6260ms (791a596a)
+2023-10-17T14:47:24.5747927+03:00 0HMUF0QCRNJC9:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Books/CreateOneBook application/json-patch+json 58 (ca22a1cb)
+2023-10-17T14:47:24.5965329+03:00 0HMUF0QCRNJC9:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:47:24.5993996+03:00 0HMUF0QCRNJC9:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:47:24.6017599+03:00 0HMUF0QCRNJC9:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:47:24.6036687+03:00 0HMUF0QCRNJC9:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:47:24.6056238+03:00 0HMUF0QCRNJC9:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:47:24.6083498+03:00 0HMUF0QCRNJC9:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:47:24.6123939+03:00 0HMUF0QCRNJC9:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:47:25.0728763+03:00 0HMUF0QCRNJC9:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.CreateOneBookAsync (Presentation)"' (500cc934)
+2023-10-17T14:47:25.0760199+03:00 0HMUF0QCRNJC9:00000002 [INF] Route matched with "{action = \"CreateOneBook\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOneBookAsync(Entities.DataTransferObject.BookDtoForInsertion)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:47:25.4501328+03:00 0HMUF0QCRNJC9:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [c].[CategoryId], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[CategoryId] = @__id_0" (0723d8ff)
+2023-10-17T14:47:25.5877884+03:00 0HMUF0QCRNJC9:00000002 [INF] Executed DbCommand ("20"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Books] ([CategoryId], [Price], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);" (0723d8ff)
+2023-10-17T14:47:25.6305559+03:00 0HMUF0QCRNJC9:00000002 [INF] Executing "ObjectResult", writing value of type '"Entities.DataTransferObject.BookDto"'. (605b4265)
+2023-10-17T14:47:25.6336245+03:00 0HMUF0QCRNJC9:00000002 [INF] Executed action "Presentation.Controllers.BooksController.CreateOneBookAsync (Presentation)" in 557.3314ms (afa2e885)
+2023-10-17T14:47:25.6337703+03:00 0HMUF0QCRNJC9:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.CreateOneBookAsync (Presentation)"' (99874f2b)
+2023-10-17T14:47:25.6385900+03:00 0HMUF0QCRNJC9:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:47:25.6417733+03:00 0HMUF0QCRNJC9:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:48:55 GMT. Cache-Control: public,max-age=90. (957ca368)
+2023-10-17T14:47:25.6456081+03:00 0HMUF0QCRNJC9:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:47:25.6490398+03:00 0HMUF0QCRNJC9:00000002 [INF] Validation headers generated. ETag: Strong, "806C8E36CB754DDE17597017EC96DAEA". Last-Modified: Tue, 17 Oct 2023 11:47:25 GMT (54183560)
+2023-10-17T14:47:25.6521959+03:00 0HMUF0QCRNJC9:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:47:25.6552130+03:00 0HMUF0QCRNJC9:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:47:25.6559309+03:00 0HMUF0QCRNJC9:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Books/CreateOneBook application/json-patch+json 58 - 201 40 application/json;+charset=utf-8 1081.4750ms (791a596a)
+2023-10-17T14:47:44.8697350+03:00 0HMUF0QCRNJCA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-17T14:47:44.8916626+03:00 0HMUF0QCRNJCA:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:47:44.8990671+03:00 0HMUF0QCRNJCA:00000002 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T14:47:44.9014587+03:00 0HMUF0QCRNJCA:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:47:44.9035316+03:00 0HMUF0QCRNJCA:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:47:44.9079480+03:00 0HMUF0QCRNJCA:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:47:44.9107177+03:00 0HMUF0QCRNJCA:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:47:44.9139323+03:00 0HMUF0QCRNJCA:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-17T14:47:44.9198597+03:00 0HMUF0QCRNJCA:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:47:46.5140210+03:00 0HMUF0QCRNJCA:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:47:46.5648198+03:00 0HMUF0QCRNJCA:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:47:46.5995835+03:00 0HMUF0QCRNJCA:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 1679.6372ms (afa2e885)
+2023-10-17T14:47:46.5996633+03:00 0HMUF0QCRNJCA:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-17T14:47:46.6045987+03:00 0HMUF0QCRNJCA:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:47:46.6086583+03:00 0HMUF0QCRNJCA:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:49:16 GMT. Cache-Control: public,max-age=90. (95d7b7bc)
+2023-10-17T14:47:46.6124570+03:00 0HMUF0QCRNJCA:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:47:46.6160810+03:00 0HMUF0QCRNJCA:00000002 [INF] Validation headers generated. ETag: Strong, "42D385CB7063672A394308616B13DE17". Last-Modified: Tue, 17 Oct 2023 11:47:46 GMT (e01203a3)
+2023-10-17T14:47:46.6200600+03:00 0HMUF0QCRNJCA:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:47:46.6247767+03:00 0HMUF0QCRNJCA:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:47:46.6253492+03:00 0HMUF0QCRNJCA:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=10 - - - 200 179 application/json;+charset=utf-8 1755.5475ms (791a596a)
+2023-10-17T14:47:57.1365389+03:00 0HMUF0QCRNJCB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T14:47:57.1399581+03:00 0HMUF0QCRNJCB:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:47:57.1464875+03:00 0HMUF0QCRNJCB:00000002 [INF] No saved response found in store. (98cc509c)
+2023-10-17T14:47:57.1488032+03:00 0HMUF0QCRNJCB:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:47:57.1510903+03:00 0HMUF0QCRNJCB:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:47:57.1568140+03:00 0HMUF0QCRNJCB:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:47:57.1590281+03:00 0HMUF0QCRNJCB:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:47:57.1599865+03:00 0HMUF0QCRNJCB:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (500cc934)
+2023-10-17T14:47:57.1622768+03:00 0HMUF0QCRNJCB:00000002 [INF] Route matched with "{action = \"GetAllBooksWithDetails\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksWithDetailsAsync()" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T14:47:57.2216243+03:00 0HMUF0QCRNJCB:00000002 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title], [c].[CategoryId], [c].[CategoryName]
+FROM [Books] AS [b]
+INNER JOIN [Categories] AS [c] ON [b].[CategoryId] = [c].[CategoryId]
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T14:47:57.2415720+03:00 0HMUF0QCRNJCB:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Book, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T14:47:57.2443194+03:00 0HMUF0QCRNJCB:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)" in 81.9731ms (afa2e885)
+2023-10-17T14:47:57.2443739+03:00 0HMUF0QCRNJCB:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (99874f2b)
+2023-10-17T14:47:57.2479826+03:00 0HMUF0QCRNJCB:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:47:57.2503175+03:00 0HMUF0QCRNJCB:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 11:49:27 GMT. Cache-Control: public,max-age=90. (6594591d)
+2023-10-17T14:47:57.2534582+03:00 0HMUF0QCRNJCB:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:47:57.2559348+03:00 0HMUF0QCRNJCB:00000002 [INF] Validation headers generated. ETag: Strong, "7E513C8DA3E9B96AB729A9DB54BF8BDC". Last-Modified: Tue, 17 Oct 2023 11:47:57 GMT (66b42d9e)
+2023-10-17T14:47:57.2580664+03:00 0HMUF0QCRNJCB:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:47:57.2602136+03:00 0HMUF0QCRNJCB:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:47:57.2605368+03:00 0HMUF0QCRNJCB:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - - 200 478 application/json;+charset=utf-8 124.0317ms (791a596a)
+2023-10-17T14:56:24.5868384+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T14:56:25.0288421+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T14:56:25.0438524+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T14:56:25.0488002+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T14:56:25.0520661+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T14:56:25.8118967+03:00 0HMUF10BC1544:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T14:56:27.8505317+03:00 0HMUF10BC1544:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 2054.1891ms (791a596a)
+2023-10-17T14:56:28.3931371+03:00 0HMUF10BC1543:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T14:56:28.4044972+03:00 0HMUF10BC1544:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T14:56:28.4317840+03:00 0HMUF10BC1544:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 27.1888ms (791a596a)
+2023-10-17T14:56:28.4893404+03:00 0HMUF10BC1543:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.1528ms (791a596a)
+2023-10-17T14:56:28.7349445+03:00 0HMUF10BC1543:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T14:56:29.6432320+03:00 0HMUF10BC1543:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 908.3383ms (791a596a)
+2023-10-17T14:59:44.5659960+03:00 0HMUF10BC1545:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 (ca22a1cb)
+2023-10-17T14:59:45.0843662+03:00 0HMUF10BC1545:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:59:45.0844391+03:00 0HMUF10BC1545:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T14:59:45.1955462+03:00 0HMUF10BC1545:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T14:59:45.2471871+03:00 0HMUF10BC1545:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T14:59:45.2517776+03:00 0HMUF10BC1545:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T14:59:45.2537421+03:00 0HMUF10BC1545:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T14:59:45.2633908+03:00 0HMUF10BC1545:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T14:59:45.2659237+03:00 0HMUF10BC1545:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T14:59:45.2678966+03:00 0HMUF10BC1545:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T14:59:45.4632794+03:00 0HMUF10BC1545:00000002 [INF] Executing endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (500cc934)
+2023-10-17T14:59:45.5315212+03:00 0HMUF10BC1545:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Authentication\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Entities.DataTransferObjects.UserForAuthenticationDto)" on controller "Presentation.Controllers.AuthenticationController" ("Presentation"). (122b2fdf)
+2023-10-17T14:59:48.0501635+03:00 0HMUF10BC1545:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:59:48.0502916+03:00 0HMUF10BC1545:00000002 [WRN] No store type was specified for the decimal property '"Price"' on entity type '"Book"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-10-17T14:59:50.4460622+03:00 0HMUF10BC1545:00000002 [INF] Executed DbCommand ("193"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:59:51.0247952+03:00 0HMUF10BC1545:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0" (0723d8ff)
+2023-10-17T14:59:51.1009380+03:00 0HMUF10BC1545:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2023-10-17T14:59:51.1565421+03:00 0HMUF10BC1545:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2023-10-17T14:59:51.5474721+03:00 0HMUF10BC1545:00000002 [INF] Executed DbCommand ("13"ms) [Parameters=["@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;" (0723d8ff)
+2023-10-17T14:59:51.9431028+03:00 0HMUF10BC1545:00000002 [INF] Executing "OkObjectResult", writing value of type '"Entities.DataTransferObjects.TokenDto"'. (605b4265)
+2023-10-17T14:59:52.0607306+03:00 0HMUF10BC1545:00000002 [INF] Executed action "Presentation.Controllers.AuthenticationController.Authenticate (Presentation)" in 6517.9522ms (afa2e885)
+2023-10-17T14:59:52.0630776+03:00 0HMUF10BC1545:00000002 [INF] Executed endpoint '"Presentation.Controllers.AuthenticationController.Authenticate (Presentation)"' (99874f2b)
+2023-10-17T14:59:52.0836850+03:00 0HMUF10BC1545:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T14:59:52.0889547+03:00 0HMUF10BC1545:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 12:01:22 GMT. Cache-Control: public,max-age=90. (ced2b6a5)
+2023-10-17T14:59:52.1048015+03:00 0HMUF10BC1545:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T14:59:52.1337251+03:00 0HMUF10BC1545:00000002 [INF] Validation headers generated. ETag: Strong, "63CE5D1C0431789199F2388EFFC7AF35". Last-Modified: Tue, 17 Oct 2023 11:59:52 GMT (74eda492)
+2023-10-17T14:59:52.1381030+03:00 0HMUF10BC1545:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T14:59:52.1413877+03:00 0HMUF10BC1545:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T14:59:52.2232939+03:00 0HMUF10BC1545:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Authentication/Authenticate/login application/json-patch+json 50 - 200 439 application/json;+charset=utf-8 7657.3114ms (791a596a)
+2023-10-17T15:00:38.3394263+03:00 0HMUF10BC1546:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=10 - - (ca22a1cb)
+2023-10-17T15:00:38.3487392+03:00 0HMUF10BC1546:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T15:00:38.3600023+03:00 0HMUF10BC1546:00000002 [INF] No saved response found in store. (98cc509c)
+2023-10-17T15:00:38.3622290+03:00 0HMUF10BC1546:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T15:00:38.3651800+03:00 0HMUF10BC1546:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T15:00:38.3690315+03:00 0HMUF10BC1546:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T15:00:38.3715870+03:00 0HMUF10BC1546:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T15:00:38.5092524+03:00 0HMUF10BC1546:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (500cc934)
+2023-10-17T15:00:38.5177092+03:00 0HMUF10BC1546:00000002 [INF] Route matched with "{action = \"GetAllBooks\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksAsync(Entities.RequestFeatures.BookParameters)" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T15:00:40.5039172+03:00 0HMUF10BC1546:00000002 [INF] Executed DbCommand ("15"ms) [Parameters=["@__p_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @__p_1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Price] >= @__p_0 AND [b].[Price] <= @__p_1
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T15:00:40.5713618+03:00 0HMUF10BC1546:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Entity, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T15:00:40.6057309+03:00 0HMUF10BC1546:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)" in 2087.9115ms (afa2e885)
+2023-10-17T15:00:40.6058084+03:00 0HMUF10BC1546:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation)"' (99874f2b)
+2023-10-17T15:00:40.6108793+03:00 0HMUF10BC1546:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T15:00:40.6140643+03:00 0HMUF10BC1546:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 12:02:10 GMT. Cache-Control: public,max-age=90. (6237322d)
+2023-10-17T15:00:40.6170321+03:00 0HMUF10BC1546:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T15:00:40.6201419+03:00 0HMUF10BC1546:00000002 [INF] Validation headers generated. ETag: Strong, "42D385CB7063672A394308616B13DE17". Last-Modified: Tue, 17 Oct 2023 12:00:40 GMT (82d51885)
+2023-10-17T15:00:40.6230356+03:00 0HMUF10BC1546:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T15:00:40.6258280+03:00 0HMUF10BC1546:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T15:00:40.6264514+03:00 0HMUF10BC1546:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooks?PageNumber=1&PageSize=10 - - - 200 179 application/json;+charset=utf-8 2287.0465ms (791a596a)
+2023-10-17T15:01:18.4418549+03:00 0HMUF10BC1547:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - (ca22a1cb)
+2023-10-17T15:01:18.4517605+03:00 0HMUF10BC1547:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T15:01:18.4540285+03:00 0HMUF10BC1547:00000002 [INF] No saved response found in store. (98cc509c)
+2023-10-17T15:01:18.4578924+03:00 0HMUF10BC1547:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T15:01:18.4607249+03:00 0HMUF10BC1547:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T15:01:18.4628724+03:00 0HMUF10BC1547:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T15:01:18.4649921+03:00 0HMUF10BC1547:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T15:01:18.4678528+03:00 0HMUF10BC1547:00000002 [INF] Executing endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (500cc934)
+2023-10-17T15:01:18.4704002+03:00 0HMUF10BC1547:00000002 [INF] Route matched with "{action = \"GetAllBooksWithDetails\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksWithDetailsAsync()" on controller "Presentation.Controllers.BooksController" ("Presentation"). (122b2fdf)
+2023-10-17T15:01:18.5573733+03:00 0HMUF10BC1547:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[Id], [b].[CategoryId], [b].[Price], [b].[Title], [c].[CategoryId], [c].[CategoryName]
+FROM [Books] AS [b]
+INNER JOIN [Categories] AS [c] ON [b].[CategoryId] = [c].[CategoryId]
+ORDER BY [b].[Id]" (0723d8ff)
+2023-10-17T15:01:18.6130241+03:00 0HMUF10BC1547:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Entities.Models.Book, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2023-10-17T15:01:18.6164061+03:00 0HMUF10BC1547:00000002 [INF] Executed action "Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)" in 145.8148ms (afa2e885)
+2023-10-17T15:01:18.6164717+03:00 0HMUF10BC1547:00000002 [INF] Executed endpoint '"Presentation.Controllers.BooksController.GetAllBooksWithDetailsAsync (Presentation)"' (99874f2b)
+2023-10-17T15:01:18.6190055+03:00 0HMUF10BC1547:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T15:01:18.6219687+03:00 0HMUF10BC1547:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 12:02:48 GMT. Cache-Control: public,max-age=90. (39bfa643)
+2023-10-17T15:01:18.6253329+03:00 0HMUF10BC1547:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T15:01:18.6281666+03:00 0HMUF10BC1547:00000002 [INF] Validation headers generated. ETag: Strong, "7E513C8DA3E9B96AB729A9DB54BF8BDC". Last-Modified: Tue, 17 Oct 2023 12:01:18 GMT (279bf5d4)
+2023-10-17T15:01:18.6304650+03:00 0HMUF10BC1547:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T15:01:18.6327614+03:00 0HMUF10BC1547:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T15:01:18.6333296+03:00 0HMUF10BC1547:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Books/GetAllBooksWithDetails/details - - - 200 478 application/json;+charset=utf-8 191.4398ms (791a596a)
+2023-10-17T15:13:30.0348874+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T15:13:30.3458307+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T15:13:30.3553658+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T15:13:30.3584961+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T15:13:30.3603905+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T15:13:30.9221789+03:00 0HMUF19STQFR0:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T15:13:31.9382587+03:00 0HMUF19STQFR0:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1030.7614ms (791a596a)
+2023-10-17T15:13:32.6706343+03:00 0HMUF19STQFR1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T15:13:32.6798059+03:00 0HMUF19STQFR0:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T15:13:32.6914950+03:00 0HMUF19STQFR0:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 11.4186ms (791a596a)
+2023-10-17T15:13:32.8031352+03:00 0HMUF19STQFR1:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 133.0479ms (791a596a)
+2023-10-17T15:13:32.9874862+03:00 0HMUF19STQFR1:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T15:13:33.6283833+03:00 0HMUF19STQFR1:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 640.8919ms (791a596a)
+2023-10-17T15:13:50.3980515+03:00 0HMUF19STQFR2:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Files/Upload/upload multipart/form-data;+boundary=----WebKitFormBoundary7NVG3qkKhYLVRLLG 103336 (ca22a1cb)
+2023-10-17T15:13:50.4757194+03:00 0HMUF19STQFR2:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T15:13:50.4758235+03:00 0HMUF19STQFR2:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T15:13:50.6085781+03:00 0HMUF19STQFR2:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T15:13:50.6633900+03:00 0HMUF19STQFR2:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T15:13:50.6686458+03:00 0HMUF19STQFR2:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T15:13:50.6728868+03:00 0HMUF19STQFR2:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T15:13:50.6823247+03:00 0HMUF19STQFR2:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T15:13:50.6848280+03:00 0HMUF19STQFR2:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T15:13:50.6888297+03:00 0HMUF19STQFR2:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T15:13:50.8886849+03:00 0HMUF19STQFR2:00000002 [INF] Executing endpoint '"Presentation.Controllers.FilesController.Upload (Presentation)"' (500cc934)
+2023-10-17T15:13:50.9578578+03:00 0HMUF19STQFR2:00000002 [INF] Route matched with "{action = \"Upload\", controller = \"Files\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(Microsoft.AspNetCore.Http.IFormFile)" on controller "Presentation.Controllers.FilesController" ("Presentation"). (122b2fdf)
+2023-10-17T15:13:51.1136302+03:00 0HMUF19STQFR2:00000002 [INF] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (605b4265)
+2023-10-17T15:13:51.4472755+03:00 0HMUF19STQFR2:00000002 [INF] Executed action "Presentation.Controllers.FilesController.Upload (Presentation)" in 473.0535ms (afa2e885)
+2023-10-17T15:13:51.4492239+03:00 0HMUF19STQFR2:00000002 [INF] Executed endpoint '"Presentation.Controllers.FilesController.Upload (Presentation)"' (99874f2b)
+2023-10-17T15:13:51.4707309+03:00 0HMUF19STQFR2:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T15:13:51.4771154+03:00 0HMUF19STQFR2:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 12:15:21 GMT. Cache-Control: public,max-age=90. (0f61c575)
+2023-10-17T15:13:51.4955012+03:00 0HMUF19STQFR2:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T15:13:51.5246491+03:00 0HMUF19STQFR2:00000002 [INF] Validation headers generated. ETag: Strong, "37C755637C02984E5200807FE52636F8". Last-Modified: Tue, 17 Oct 2023 12:13:51 GMT (91a9f4d9)
+2023-10-17T15:13:51.5307209+03:00 0HMUF19STQFR2:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T15:13:51.5346663+03:00 0HMUF19STQFR2:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T15:13:51.5578688+03:00 0HMUF19STQFR2:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Files/Upload/upload multipart/form-data;+boundary=----WebKitFormBoundary7NVG3qkKhYLVRLLG 103336 - 200 118 application/json;+charset=utf-8 1159.7192ms (791a596a)
+2023-10-17T15:15:42.2956445+03:00  [INF] User profile is available. Using '"C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-10-17T15:15:42.5401617+03:00  [INF] Now listening on: "http://localhost:5251" (d826f4b8)
+2023-10-17T15:15:42.5495693+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-10-17T15:15:42.5533045+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-10-17T15:15:42.5556390+03:00  [INF] Content root path: "C:\Users\Hp\source\repos\bsStoreApp\WebApi\" (b5d60022)
+2023-10-17T15:15:43.1650832+03:00 0HMUF1B4A90PP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/index.html - - (ca22a1cb)
+2023-10-17T15:15:44.1924790+03:00 0HMUF1B4A90PP:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/index.html - - - 200 - text/html;charset=utf-8 1053.3088ms (791a596a)
+2023-10-17T15:15:44.2161640+03:00 0HMUF1B4A90PP:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-10-17T15:15:44.2235257+03:00 0HMUF1B4A90PP:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 7.3578ms (791a596a)
+2023-10-17T15:15:44.5331128+03:00 0HMUF1B4A90PP:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - (ca22a1cb)
+2023-10-17T15:15:44.6085282+03:00 0HMUF1B4A90PP:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5251/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.3818ms (791a596a)
+2023-10-17T15:15:44.7286845+03:00 0HMUF1B4A90PP:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - (ca22a1cb)
+2023-10-17T15:15:45.1307259+03:00 0HMUF1B4A90PP:00000005 [INF] Request finished HTTP/1.1 GET http://localhost:5251/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 401.9413ms (791a596a)
+2023-10-17T15:16:08.5718377+03:00 0HMUF1B4A90PR:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5251/api/Files/Upload/upload multipart/form-data;+boundary=----WebKitFormBoundary92YAHtehKBglN4MB 54020 (ca22a1cb)
+2023-10-17T15:16:08.6408281+03:00 0HMUF1B4A90PR:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T15:16:08.6409273+03:00 0HMUF1B4A90PR:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-10-17T15:16:08.7320361+03:00 0HMUF1B4A90PR:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2023-10-17T15:16:08.7620846+03:00 0HMUF1B4A90PR:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T15:16:08.7639428+03:00 0HMUF1B4A90PR:00000002 [INF] Not valid - method isn't GET or HEAD. (0be1d475)
+2023-10-17T15:16:08.7654747+03:00 0HMUF1B4A90PR:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T15:16:08.7746918+03:00 0HMUF1B4A90PR:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T15:16:08.7766733+03:00 0HMUF1B4A90PR:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T15:16:08.7782672+03:00 0HMUF1B4A90PR:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T15:16:08.8880317+03:00 0HMUF1B4A90PR:00000002 [INF] Executing endpoint '"Presentation.Controllers.FilesController.Upload (Presentation)"' (500cc934)
+2023-10-17T15:16:08.9341120+03:00 0HMUF1B4A90PR:00000002 [INF] Route matched with "{action = \"Upload\", controller = \"Files\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(Microsoft.AspNetCore.Http.IFormFile)" on controller "Presentation.Controllers.FilesController" ("Presentation"). (122b2fdf)
+2023-10-17T15:16:09.0137555+03:00 0HMUF1B4A90PR:00000002 [INF] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (605b4265)
+2023-10-17T15:16:09.2160913+03:00 0HMUF1B4A90PR:00000002 [INF] Executed action "Presentation.Controllers.FilesController.Upload (Presentation)" in 274.9281ms (afa2e885)
+2023-10-17T15:16:09.2171785+03:00 0HMUF1B4A90PR:00000002 [INF] Executed endpoint '"Presentation.Controllers.FilesController.Upload (Presentation)"' (99874f2b)
+2023-10-17T15:16:09.2301364+03:00 0HMUF1B4A90PR:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T15:16:09.2331648+03:00 0HMUF1B4A90PR:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 12:17:39 GMT. Cache-Control: public,max-age=90. (7ba09a5f)
+2023-10-17T15:16:09.2450319+03:00 0HMUF1B4A90PR:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T15:16:09.2665602+03:00 0HMUF1B4A90PR:00000002 [INF] Validation headers generated. ETag: Strong, "080C98E365545C986F3EF0F974F41318". Last-Modified: Tue, 17 Oct 2023 12:16:09 GMT (16015bf5)
+2023-10-17T15:16:09.2705460+03:00 0HMUF1B4A90PR:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T15:16:09.2734825+03:00 0HMUF1B4A90PR:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T15:16:09.2847414+03:00 0HMUF1B4A90PR:00000002 [INF] Request finished HTTP/1.1 POST http://localhost:5251/api/Files/Upload/upload multipart/form-data;+boundary=----WebKitFormBoundary92YAHtehKBglN4MB 54020 - 200 119 application/json;+charset=utf-8 712.8929ms (791a596a)
+2023-10-17T15:16:28.4674248+03:00 0HMUF1B4A90PS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/Files/Download/download?fileName=RestfulAPI.PNG - - (ca22a1cb)
+2023-10-17T15:16:28.4763106+03:00 0HMUF1B4A90PS:00000002 [INF] No cached response available for this request. (4ce42171)
+2023-10-17T15:16:28.4823606+03:00 0HMUF1B4A90PS:00000002 [INF] Checking for conditional GET/HEAD. (7e2efcb6)
+2023-10-17T15:16:28.4885854+03:00 0HMUF1B4A90PS:00000002 [INF] Not valid - no If-None-Match or If-Modified-Since headers. (00e43d04)
+2023-10-17T15:16:28.4904856+03:00 0HMUF1B4A90PS:00000002 [INF] Don't generate 304 - Not Modified.  Continue. (b6a7d473)
+2023-10-17T15:16:28.4921892+03:00 0HMUF1B4A90PS:00000002 [INF] Checking for conditional PUT/PATCH. (bf3cf9be)
+2023-10-17T15:16:28.4941072+03:00 0HMUF1B4A90PS:00000002 [INF] Not valid - method isn't PUT or PATCH. (671cb4f2)
+2023-10-17T15:16:28.4959768+03:00 0HMUF1B4A90PS:00000002 [INF] Don't generate 412 - Precondition Failed.  Continue. (08bc4a18)
+2023-10-17T15:16:28.4965754+03:00 0HMUF1B4A90PS:00000002 [INF] Executing endpoint '"Presentation.Controllers.FilesController.Download (Presentation)"' (500cc934)
+2023-10-17T15:16:28.5010877+03:00 0HMUF1B4A90PS:00000002 [INF] Route matched with "{action = \"Download\", controller = \"Files\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String)" on controller "Presentation.Controllers.FilesController" ("Presentation"). (122b2fdf)
+2023-10-17T15:16:28.5209524+03:00 0HMUF1B4A90PS:00000002 [INF] Executing "FileContentResult", sending file with download name '"RestfulAPI.PNG"' ... (3ade02d2)
+2023-10-17T15:16:28.5280846+03:00 0HMUF1B4A90PS:00000002 [INF] Executed action "Presentation.Controllers.FilesController.Download (Presentation)" in 26.8858ms (afa2e885)
+2023-10-17T15:16:28.5281504+03:00 0HMUF1B4A90PS:00000002 [INF] Executed endpoint '"Presentation.Controllers.FilesController.Download (Presentation)"' (99874f2b)
+2023-10-17T15:16:28.5314923+03:00 0HMUF1B4A90PS:00000002 [INF] Generating expiration headers. (97875003)
+2023-10-17T15:16:28.5339799+03:00 0HMUF1B4A90PS:00000002 [INF] Expiration headers generated. Expires: Tue, 17 Oct 2023 12:17:58 GMT. Cache-Control: public,max-age=90. (e09bbfa3)
+2023-10-17T15:16:28.5359556+03:00 0HMUF1B4A90PS:00000002 [INF] Generating Validation headers. (20c08f55)
+2023-10-17T15:16:28.5403391+03:00 0HMUF1B4A90PS:00000002 [INF] Validation headers generated. ETag: Strong, "83E91C27A998EE7C3D1AB485DF57F3FA". Last-Modified: Tue, 17 Oct 2023 12:16:28 GMT (0032b8ac)
+2023-10-17T15:16:28.5420495+03:00 0HMUF1B4A90PS:00000002 [INF] Generating Vary header. (c1174e38)
+2023-10-17T15:16:28.5437316+03:00 0HMUF1B4A90PS:00000002 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding. (e081213a)
+2023-10-17T15:16:28.5500837+03:00 0HMUF1B4A90PS:00000002 [INF] The response has been cached. (fd8e3e95)
+2023-10-17T15:16:28.5503473+03:00 0HMUF1B4A90PS:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/Files/Download/download?fileName=RestfulAPI.PNG - - - 200 53833 image/png 82.9488ms (791a596a)

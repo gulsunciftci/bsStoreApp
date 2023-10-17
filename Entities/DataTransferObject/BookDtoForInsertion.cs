@@ -10,10 +10,11 @@ namespace Entities.DataTransferObject
 {
     public record BookDtoForInsertion : BookDtoForManipulation
     {
-        //[Required(ErrorMessage = "CategoryId is required.")]
-        //public int CategoryId { get; init; }
-
-        [JsonIgnore]
+		//[Required(ErrorMessage = "CategoryId is required.")]
+		//public int CategoryId { get; init; }
+		[Required(ErrorMessage = "CategoryId is required.")]
+		public int CategoryId { get; init; }
+		[JsonIgnore]
         public int Id { get; set; }
     }
 }
