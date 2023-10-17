@@ -15,6 +15,7 @@ using System.Text.Json;
 namespace Presentation.Controllers
 {
 	//[ApiVersion("1.0")]
+	[ApiExplorerSettings(GroupName = "v1")]
 	[ServiceFilter(typeof(LogFilterAttribute))]
     [Route("api/[controller]/[action]")]
     [ApiController]
@@ -85,11 +86,11 @@ namespace Presentation.Controllers
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateOneBookAsync([FromRoute(Name = "id")] int id, [FromBody]BookDtoForUpdate bookDto)
         {
-           
-               await _manager.BookService.UpdateOneBookAsync(id, bookDto, false);    
-              return NoContent();//204
-          
-        }
+
+			await _manager.BookService.UpdateOneBookAsync(id, bookDto, false);
+			return NoContent(); // 204
+
+		}
 
 		[Authorize(Roles = "Admin")]
 		[HttpDelete("{id:int}")]

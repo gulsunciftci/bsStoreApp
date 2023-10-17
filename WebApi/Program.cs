@@ -57,6 +57,8 @@ builder.Services.AddHttpContextAccessor();
 //Identity için
 builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJWT(builder.Configuration);
+builder.Services.ConfigureSwagger();
+
 
 var app = builder.Build();
 
@@ -76,7 +78,11 @@ if (app.Environment.IsProduction())
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+	app.UseSwaggerUI(s =>
+	{
+		s.SwaggerEndpoint("/swagger/v1/swagger.json", "BTK Akademi v1");
+		s.SwaggerEndpoint("/swagger/v2/swagger.json", "BTK Akademi v2");
+	});
 }
 app.UseHttpsRedirection();
 app.UseIpRateLimiting();
